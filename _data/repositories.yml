@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
+  - fkie-cad/ipal_ids_framework
+  - fkie-cad/ipal_transcriber
+  - fkie-cad/ipal_datasets
+  - eric-wagner/thRSAhold
+  - fkie-cad/bpmac
+  - COMSYS/smartjudge
+  - fkie-cad/spmac
   - jpswalsh/academicons
