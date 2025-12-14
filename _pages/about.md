@@ -2,8 +2,6 @@
 layout: about
 title: About Me
 permalink: /
-nav: true
-nav_order: 1
 subtitle: <a href='#'>University of Luxembourg</a>
 
 profile:
