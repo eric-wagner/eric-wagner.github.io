@@ -49,16 +49,14 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather.html";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-paper-on-generalizable-and-comprehensible-industrial-intrusion-detection-was-accepted-at-usenix-security-2025",
+          title: 'Our paper on generalizable and comprehensible industrial intrusion detection was accepted at USENIX...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
+          section: "News",},{id: "news-our-paper-on-multicast-source-authentication-for-can-bus-communication-has-been-accepted-at-ieee-euros-amp-amp-p-2025",
+          title: 'Our paper on multicast source authentication for CAN bus communication has been accepted...',
           description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2.html";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-started-a-new-job-a-postdoctoral-researcher-at-university-of-luxembourg",
+          title: 'Started a new job a postdoctoral researcher at University of Luxembourg',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
