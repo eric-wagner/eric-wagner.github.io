@@ -1,6 +1,7 @@
 ---
 layout: about
 title: About Me
+nav: false
 permalink: /
 subtitle: <a href='#'>University of Luxembourg</a>
 
