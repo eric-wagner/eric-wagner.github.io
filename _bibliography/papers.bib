@@ -1,3 +1,89 @@
+@inproceedings{wolsing2025geco,
+	title        = {{GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection}},
+	author       = {Wolsing, Konrad and Wagner, Eric and Lux, Luisa and Wehrle, Klaus and Henze, Martin},
+	year         = {2025},
+  selected={true},
+  abstract = {Protecting industrial control systems against cyberattacks is crucial to counter escalating threats to critical infrastructure. To this end, Industrial Intrusion Detection Systems (IIDSs) provide an easily retrofittable approach to uncover attacks quickly and before they can cause significant damage. Current research focuses either on maximizing automation, usually through heavy use of machine learning, or on expert systems that rely on detailed knowledge of the monitored systems. While the former hinders the interpretability of alarms, the latter is impractical in real deployments due to excessive manual work for each individual deployment. To bridge the gap between maximizing automation and leveraging expert knowledge, we introduce GeCo, a novel IIDS based on automatically derived comprehensible models of benign system behavior. GeCo leverages state-space models mined from historical process data to minimize manual effort for operators while maintaining high detection performance and generalizability across diverse industrial domains. Our evaluation against state-of-the-art IIDSs and datasets demonstrates GeCo’s superior performance while remaining comprehensible and performing on par with expert-derived rules. GeCo represents a critical step towards empowering operators with control over their cybersecurity toolset, thereby enhancing the protection of valuable physical processes in industrial control systems and critical infrastructures.},
+  google_scholar_id = {9lYfEr4AAAAJ:Mojj43d5GZwC},
+  bibtex_show = {true},
+  pdf = {wolsing2025geco.pdf},
+  booktitle    = {Proceedings of the 34th USENIX Security Symposium (USENIX~Sec'25)}
+}
+@inproceedings{wagner2025caiba,
+	title        = {{CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping}},
+	author       = {Wagner, Eric and Basels, Frederik and Bauer, Jan and Zimmermann, Till and Wehrle, Klaus and Henze, Martin},
+	year         = {2025},
+	booktitle    = {Proceedings of the 2025 IEEE 10th European Symposium on Security and Privacy~(EuroS\&P'25)},
+  selected={true},
+  abstract = {Controller Area Networks (CANs) are the backbone for reliable intra-vehicular communication. Recent cyberattacks have, however, exposed the weaknesses of CAN, which was designed without any security considerations in the 1980s. Current efforts to retrofit security via intrusion detection or message authentication codes are insufficient to fully secure CAN as they cannot adequately protect against masquerading attacks, where a compromised communication device, a so-called electronic control units, imitates another device. To remedy this situation, multicast source authentication is required to reliably identify the senders of messages. In this paper, we present CAIBA, a novel multicast source authentication scheme specifically designed for communication buses like CAN. CAIBA relies on an authenticator overwriting authentication tags on-the-fly, such that a receiver only reads a valid tag if not only the integrity of a message but also its source can be verified. To integrate CAIBA into CAN, we devise a special message authentication scheme and a reactive bit overwriting mechanism. We achieve interoperability with legacy CAN devices, while protecting receivers implementing the AUTOSAR SecOC standard against masquerading attacks without communication overhead or verification delays.},
+  google_scholar_id = {9lYfEr4AAAAJ:Y5dfb0dijaUC},
+  bibtex_show = {true},
+  pdf = {wagner2025caiba.pdf},
+  doi = {10.1109/EuroSP63326.2025.00045}
+}
+@inproceedings{wagner2025sherlock,
+	title        = {{Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks}},
+	author       = {Wagner, Eric AND Bader, Lennart AND Wolsing, Konrad AND Serror, Martin},
+	year         = {2025},
+	booktitle    = {{Proceedings of the 15th ACM Conference on Data and Application Security and Privacy (CODASPY'25)}},
+  selected={true},
+  abstract = {Physically distributed components and legacy protocols make the protection of power grids against increasing cyberattack threats challenging. Infamously, the 2015 and 2016 blackouts in Ukraine were caused by cyberattacks, and the German Federal Office for Information Security (BSI) recorded over 200 cyber incidents against the German energy sector between 2023 and 2024. Intrusion detection promises to quickly detect such attacks and mitigate the worst consequences. However, public datasets of realistic scenarios are vital to evaluate these systems. This paper introduces Sherlock, a dataset generated with the co-simulator Wattson. In total, Sherlock covers three scenarios with various attacks manipulating the process state by injecting malicious commands or manipulating measurement values. We additionally test five recently-published intrusion detection systems on Sherlock, highlighting specific challenges for intrusion detection in power grids. Dataset and documentation are available at https://sherlock.wattson.it/.},
+  google_scholar_id = {9lYfEr4AAAAJ:9vf0nzSNQJEC},
+  bibtex_show = {true},
+  pdf = {wagner2025sherlock.pdf},
+  dataset = {https://zenodo.org/records/15260901},
+  doi = {10.1145/3714393.3726006}
+}
+@inproceedings{wagner2025dtls,
+	title        = {{Integrating MAC Aggregation over Lossy Channels in DTLS 1.3}},
+	author       = {Wagner, Eric and Heye, David and Serror, Martin and Wehrle, Klaus},
+	year         = {2025},
+	booktitle    = {Proceedings of the 33rd IEEE International Conference on Network Protocols~(ICNP'25)},
+  selected={true},
+  abstract = {Aggregating Message Authentication Codes (MACs) promises to save valuable bandwidth in resource-constrained environments. The idea is simple: Instead of appending an authentication tag to each message in a communication stream, the integrity protection of multiple messages is aggregated into a single tag. Recent studies postulate, e.g., based on simulations, that these benefits also spread to wireless, and thus lossy, scenarios despite each lost packet typically resulting in the loss of integrity protection information for multiple messages. In this paper, we investigate these claims in a real deployment. Therefore, we first design a MAC aggregation extension for the Datagram Transport Layer Security (DTLS) 1.3 protocol. Afterward, we extensively evaluate the performance of MAC aggregation on a complete communication protocol stack on embedded hardware. We find that MAC aggregation can indeed increase goodput by up to 50 % and save up to 17 % of energy expenditure for the transmission of short messages, even in lossy channels.},
+  google_scholar_id = {9lYfEr4AAAAJ:8AbLer7MMksC},
+  bibtex_show = {true},
+  pdf = {wagner2025dtls.pdf},
+  doi = {10.1145/3714393.3726006}
+}
+@article{pennekamp2024supply_chain,
+	title        = {{An Interdisciplinary Survey on Information Flows in Supply Chains}},
+	author       = {Pennekamp, Jan AND Matzutt, Roman AND Klinkmüller, Christopher AND Bader, Lennart AND Serror, Martin AND Wagner, Eric AND Malik, Sidra AND Spiß, Maria AND Rahn, Jessica AND Gürpinar, Tan AND Vlad, Eduard AND Leemans, Sander J. J. AND Kanhere, Salil S. AND Stich, Volker AND Wehrle, Klaus},
+	year         = {2024},
+	journal     = {{ACM Computing Surveys}},
+	volume       = {56},
+	number       = {2},
+  selected={true},
+  abstract = {Supply chains form the backbone of modern economies and therefore require reliable information flows. In practice, however, supply chains face severe technical challenges, especially regarding security and privacy. In this work, we consolidate studies from supply chain management, information systems, and computer science from 2010–2021 in an interdisciplinary meta-survey to make this topic holistically accessible to interdisciplinary research. In particular, we identify a significant potential for computer scientists to remedy technical challenges and improve the robustness of information flows. We subsequently present a concise information flow-focused taxonomy for supply chains before discussing future research directions to provide possible entry points.},
+  google_scholar_id = {9lYfEr4AAAAJ:p2g8aNsByqUC},
+  bibtex_show = {true},
+  pdf = {pennekamp2024supply_chain.pdf},
+  doi = {10.1145/3606693}
+}
+@inproceedings{wagner2024madtls,
+	title        = {{Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication}},
+	author       = {Wagner, Eric and Heye, David and Serror, Martin and Kunze, Ike and Wehrle, Klaus and Henze, Martin},
+	year         = {2024},
+	booktitle    = {Proceedings of the 19th ACM Asia Conference on Computer and Communications Security~(AsiaCCS'24)},
+  selected={true},
+  abstract = {Industrial control systems increasingly rely on middlebox functionality such as intrusion detection or in-network processing. However, traditional end-to-end security protocols interfere with the necessary access to in-flight data. While recent work on middlebox-aware end-to-end security protocols for the traditional Internet promises to address the dilemma between end-to-end security guarantees and middleboxes, the current state-of-the-art lacks critical features for industrial communication. Most importantly, industrial settings require fine-grained access control for middleboxes to truly operate in a least-privilege mode. Likewise, advanced applications even require that middleboxes can inject specific messages (e.g., emergency shutdowns). Meanwhile, industrial scenarios often expose tight latency and bandwidth constraints not found in the traditional Internet. As the current state-of-the-art misses critical features, we propose Middlebox-aware DTLS (Madtls), a middlebox-aware end-to-end security protocol specifically tailored to the needs of industrial networks. Madtls provides bit-level read and write access control of middleboxes to communicated data with minimal bandwidth and processing overhead, even on constrained hardware.},
+  google_scholar_id = {9lYfEr4AAAAJ:8AbLer7MMksC},
+  bibtex_show = {true},
+  pdf = {wagner2024madtls.pdf},
+  doi = {10.1145/3634737.3637640}
+}
+@inproceedings{a2024_wagner_when_and_how,
+	title        = {{When and How to Aggregate Message Authentication Codes on Lossy Channels?}},
+	author       = {Wagner, Eric and Serror, Martin and Wehrle, Klaus and Henze, Martin},
+	year         = {2024},
+	booktitle    = {Proceedings of the International Conference on Applied Cryptography and Network Security~(ACNS'24)}
+}
+@inproceedings{2024_wolsing_deployment-challenges-of-industrial,
+	title        = {{Deployment Challenges of Industrial Intrusion Detection Systems}},
+	author       = {Wolsing, Konrad AND Wagner, Eric AND Basels, Frederik AND Wagner, Patrick AND Wehrle, Klaus},
+	year         = {2024},
+	booktitle    = {{Proceedings of the 10th Workshop on the Security of Industrial Control Systems \& of Cyber-Physical Systems (ICPS'24)}}
+}
 @inproceedings{2018_hiller_secure,
 	title        = {{Secure Low Latency Communication for Constrained Industrial IoT Scenarios}},
 	author       = {Hiller, Jens and Henze, Martin and Serror, Martin and Wagner, Eric and Richter, Jan Niklas and Wehrle, Klaus},
@@ -115,73 +201,4 @@
 	year         = {2024},
 	booktitle    = {{Blockchains – A Handbook on Fundamentals}}
 }
-@article{2024_pennekamp_an-interdisciplinary-survey-on,
-	title        = {{An Interdisciplinary Survey on Information Flows in Supply Chains}},
-	author       = {Pennekamp, Jan AND Matzutt, Roman AND Klinkmüller, Christopher AND Bader, Lennart AND Serror, Martin AND Wagner, Eric AND Malik, Sidra AND Spiß, Maria AND Rahn, Jessica AND Gürpinar, Tan AND Vlad, Eduard AND Leemans, Sander J. J. AND Kanhere, Salil S. AND Stich, Volker AND Wehrle, Klaus},
-	year         = {2024},
-	journal     = {{ACM Computing Surveys}},
-	volume       = {56},
-	number       = {2},
-  selected={true}
-}
-@inproceedings{wagner2025sherlock,
-	title        = {{Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks}},
-	author       = {Wagner, Eric AND Bader, Lennart AND Wolsing, Konrad AND Serror, Martin},
-	year         = {2025},
-	booktitle    = {{Proceedings of the 15th ACM Conference on Data and Application Security and Privacy (CODASPY'25)}},
-  selected={true},
-  abstract = {Physically distributed components and legacy protocols make the protection of power grids against increasing cyberattack threats challenging. Infamously, the 2015 and 2016 blackouts in Ukraine were caused by cyberattacks, and the German Federal Office for Information Security (BSI) recorded over 200 cyber incidents against the German energy sector between 2023 and 2024. Intrusion detection promises to quickly detect such attacks and mitigate the worst consequences. However, public datasets of realistic scenarios are vital to evaluate these systems. This paper introduces Sherlock, a dataset generated with the co-simulator Wattson. In total, Sherlock covers three scenarios with various attacks manipulating the process state by injecting malicious commands or manipulating measurement values. We additionally test five recently-published intrusion detection systems on Sherlock, highlighting specific challenges for intrusion detection in power grids. Dataset and documentation are available at https://sherlock.wattson.it/.},
-  google_scholar_id = {9lYfEr4AAAAJ:9vf0nzSNQJEC},
-  bibtex_show = {true},
-  pdf = {wagner2025sherlock.pdf},
-  dataset = {https://zenodo.org/records/15260901},
-  doi = {10.1145/3714393.3726006}
-}
-@inproceedings{wagner2024madtls,
-	title        = {{Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication}},
-	author       = {Wagner, Eric and Heye, David and Serror, Martin and Kunze, Ike and Wehrle, Klaus and Henze, Martin},
-	year         = {2024},
-	booktitle    = {Proceedings of the 19th ACM Asia Conference on Computer and Communications Security~(AsiaCCS'24)},
-  selected={true}
-}
-@inproceedings{a2024_wagner_when_and_how,
-	title        = {{When and How to Aggregate Message Authentication Codes on Lossy Channels?}},
-	author       = {Wagner, Eric and Serror, Martin and Wehrle, Klaus and Henze, Martin},
-	year         = {2024},
-	booktitle    = {Proceedings of the International Conference on Applied Cryptography and Network Security~(ACNS'24)}
-}
-@inproceedings{2024_wolsing_deployment-challenges-of-industrial,
-	title        = {{Deployment Challenges of Industrial Intrusion Detection Systems}},
-	author       = {Wolsing, Konrad AND Wagner, Eric AND Basels, Frederik AND Wagner, Patrick AND Wehrle, Klaus},
-	year         = {2024},
-	booktitle    = {{Proceedings of the 10th Workshop on the Security of Industrial Control Systems \& of Cyber-Physical Systems (ICPS'24)}}
-}
-@inproceedings{wagner2025caiba,
-	title        = {{CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping}},
-	author       = {Wagner, Eric and Basels, Frederik and Bauer, Jan and Zimmermann, Till and Wehrle, Klaus and Henze, Martin},
-	year         = {2025},
-	booktitle    = {Proceedings of the 2025 IEEE 10th European Symposium on Security and Privacy~(EuroS\&P'25)},
-  selected={true},
-  abstract = {Controller Area Networks (CANs) are the backbone for reliable intra-vehicular communication. Recent cyberattacks have, however, exposed the weaknesses of CAN, which was designed without any security considerations in the 1980s. Current efforts to retrofit security via intrusion detection or message authentication codes are insufficient to fully secure CAN as they cannot adequately protect against masquerading attacks, where a compromised communication device, a so-called electronic control units, imitates another device. To remedy this situation, multicast source authentication is required to reliably identify the senders of messages. In this paper, we present CAIBA, a novel multicast source authentication scheme specifically designed for communication buses like CAN. CAIBA relies on an authenticator overwriting authentication tags on-the-fly, such that a receiver only reads a valid tag if not only the integrity of a message but also its source can be verified. To integrate CAIBA into CAN, we devise a special message authentication scheme and a reactive bit overwriting mechanism. We achieve interoperability with legacy CAN devices, while protecting receivers implementing the AUTOSAR SecOC standard against masquerading attacks without communication overhead or verification delays.},
-  google_scholar_id = {9lYfEr4AAAAJ:Y5dfb0dijaUC},
-  bibtex_show = {true},
-  pdf = {wagner2025caiba.pdf},
-  doi = {10.1109/EuroSP63326.2025.00045}
-}
-@inproceedings{wagner2025dtls,
-	title        = {{Integrating MAC Aggregation over Lossy Channels in DTLS 1.3}},
-	author       = {Wagner, Eric and Heye, David and Serror, Martin and Wehrle, Klaus},
-	year         = {2025},
-	booktitle    = {Proceedings of the 33rd IEEE International Conference on Network Protocols~(ICNP'25)}
-}
-@inproceedings{wolsing2025geco,
-	title        = {{GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection}},
-	author       = {Wolsing, Konrad and Wagner, Eric and Lux, Luisa and Wehrle, Klaus and Henze, Martin},
-	year         = {2025},
-  selected={true},
-  abstract = {Protecting industrial control systems against cyberattacks is crucial to counter escalating threats to critical infrastructure. To this end, Industrial Intrusion Detection Systems (IIDSs) provide an easily retrofittable approach to uncover attacks quickly and before they can cause significant damage. Current research focuses either on maximizing automation, usually through heavy use of machine learning, or on expert systems that rely on detailed knowledge of the monitored systems. While the former hinders the interpretability of alarms, the latter is impractical in real deployments due to excessive manual work for each individual deployment. To bridge the gap between maximizing automation and leveraging expert knowledge, we introduce GeCo, a novel IIDS based on automatically derived comprehensible models of benign system behavior. GeCo leverages state-space models mined from historical process data to minimize manual effort for operators while maintaining high detection performance and generalizability across diverse industrial domains. Our evaluation against state-of-the-art IIDSs and datasets demonstrates GeCo’s superior performance while remaining comprehensible and performing on par with expert-derived rules. GeCo represents a critical step towards empowering operators with control over their cybersecurity toolset, thereby enhancing the protection of valuable physical processes in industrial control systems and critical infrastructures.},
-  google_scholar_id = {9lYfEr4AAAAJ:Mojj43d5GZwC},
-  bibtex_show = {true},
-  pdf = {wolsing2025geco.pdf},
-  booktitle    = {Proceedings of the 34th USENIX Security Symposium (USENIX~Sec'25)}
-}
+
