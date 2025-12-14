@@ -27,4 +27,4 @@ IEEE S&P: [IEEE Symposium on Security and Privacy](https://sp2025.ieee-security.
 NDSS: [Network and Distributed System Security Symposium](https://www.ndss-symposium.org/ndss2025/) (2025) \
 IEEE EuroS&P: [IEEE European Symposium on Security and Privacy](https://www.ieee-security.org/TC/EuroSP2022/) (2022) \
 IEEE ICBC: [IEEE International Conference on Blockchain and Cryptocurrency](https://icbc2021.ieee-icbc.org/index.html) (2021) \
-IEEE LCN: [IEEE Conference on Local Computer Networks](https://www.ieeelcn.org/prior/LCN46/index.html) (2021) \
+IEEE LCN: [IEEE Conference on Local Computer Networks](https://www.ieeelcn.org/prior/LCN46/index.html) (2021) 
