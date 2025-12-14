@@ -380,11 +380,11 @@ third_party_libraries:
   echarts:
     integrity:
       js:
-        library: "sha256-QvgynZibb2U53SsVu98NggJXYqwRL7tg3FeyfXvPOUY="
+        library: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
         dark_theme: "sha256-sm6Ui9w41++ZCWmIWDLC18a6ki72FQpWDiYTDxEPXwU="
     url:
       js:
-        library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/dist/echarts.min.js"
+        library: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
         dark_theme: "https://cdn.jsdelivr.net/npm/echarts@{{version}}/theme/dark-fresh-cut.js"
     version: "5.5.0"
   google_fonts:
@@ -393,11 +393,11 @@ third_party_libraries:
   highlightjs:
     integrity:
       css:
-        light: "sha256-Oppd74ucMR5a5Dq96FxjEzGF7tTw2fZ/6ksAqDCM8GY="
+        light: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
         dark: "sha256-nyCNAiECsdDHrr/s2OQsp5l9XeY2ZJ0rMepjCT2AkBk="
     url:
       css:
-        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github.min.css"
+        light: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
         dark: "https://cdn.jsdelivr.net/npm/highlight.js@{{version}}/styles/github-dark.min.css"
     version: "11.9.0"
   imagesloaded:
