@@ -6,6 +6,7 @@
   abstract = {Protecting industrial control systems against cyberattacks is crucial to counter escalating threats to critical infrastructure. To this end, Industrial Intrusion Detection Systems (IIDSs) provide an easily retrofittable approach to uncover attacks quickly and before they can cause significant damage. Current research focuses either on maximizing automation, usually through heavy use of machine learning, or on expert systems that rely on detailed knowledge of the monitored systems. While the former hinders the interpretability of alarms, the latter is impractical in real deployments due to excessive manual work for each individual deployment. To bridge the gap between maximizing automation and leveraging expert knowledge, we introduce GeCo, a novel IIDS based on automatically derived comprehensible models of benign system behavior. GeCo leverages state-space models mined from historical process data to minimize manual effort for operators while maintaining high detection performance and generalizability across diverse industrial domains. Our evaluation against state-of-the-art IIDSs and datasets demonstrates GeCo’s superior performance while remaining comprehensible and performing on par with expert-derived rules. GeCo represents a critical step towards empowering operators with control over their cybersecurity toolset, thereby enhancing the protection of valuable physical processes in industrial control systems and critical infrastructures.},
   google_scholar_id = {9lYfEr4AAAAJ:Mojj43d5GZwC},
   bibtex_show = {true},
+  code = {https://github.com/fkie-cad/ipal_ids_framework},
   pdf = {wolsing2025geco.pdf},
   booktitle    = {Proceedings of the 34th USENIX Security Symposium (USENIX~Sec'25)}
 }
@@ -18,6 +19,7 @@
   abstract = {Controller Area Networks (CANs) are the backbone for reliable intra-vehicular communication. Recent cyberattacks have, however, exposed the weaknesses of CAN, which was designed without any security considerations in the 1980s. Current efforts to retrofit security via intrusion detection or message authentication codes are insufficient to fully secure CAN as they cannot adequately protect against masquerading attacks, where a compromised communication device, a so-called electronic control units, imitates another device. To remedy this situation, multicast source authentication is required to reliably identify the senders of messages. In this paper, we present CAIBA, a novel multicast source authentication scheme specifically designed for communication buses like CAN. CAIBA relies on an authenticator overwriting authentication tags on-the-fly, such that a receiver only reads a valid tag if not only the integrity of a message but also its source can be verified. To integrate CAIBA into CAN, we devise a special message authentication scheme and a reactive bit overwriting mechanism. We achieve interoperability with legacy CAN devices, while protecting receivers implementing the AUTOSAR SecOC standard against masquerading attacks without communication overhead or verification delays.},
   google_scholar_id = {9lYfEr4AAAAJ:Y5dfb0dijaUC},
   bibtex_show = {true},
+  code = {https://github.com/fkie-cad/caiba},
   pdf = {wagner2025caiba.pdf},
   doi = {10.1109/EuroSP63326.2025.00045}
 }
@@ -44,7 +46,7 @@
   google_scholar_id = {8AbLer7MMksC},
   bibtex_show = {true},
   pdf = {wagner2025dtls.pdf},
-  doi = {10.1145/3714393.3726006}
+  doi = {10.1109/ICNP65844.2025.11192339}
 }
 @inproceedings{attenni2025cerere,
   title={{CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities}},
@@ -53,7 +55,6 @@
   abstract = {Current penetration testing or red-teaming activities to evaluate the cyber resilience of a system mostly rely on subsets of known vulnerabilities or procedures. Despite the use of these techniques, it is hard to assess the process and risks falling into repetitive patterns, which do not effectively validate the resilience of the system against potential zero-day attacks. Countermeasures in the system-under-test are often left out of the cyber resilience evaluation phase. We propose CERERE-an automated framework designed to measure and test the cyber resilience of complex IT systems, such as critical national infrastructure and military networks. CERERE simulates the effects of attacks on the system regardless of exploitation methods. The framework consists of war gaming exercises where attacker and defender modules interact in a simulated test environment to allow a dynamic evaluation of resilience. The attacker module uses heuristic algorithms to generate kill chains, while the defender module leverages AI-based algorithms to simulate defense strategies. CERERE has been validated by evaluating the resilience of a given scenario and identifying the optimal configuration of responses and countermeasures},
   google_scholar_id = {tkaPQYYpVKoC},
   bibtex_show = {true},
-  pdf = {attenni2025cerere.pdf},
   doi = {10.1109/ICMCIS64378.2025.11047556},
   year={2025},
 }
@@ -83,15 +84,15 @@
   pdf = {wagner2024madtls.pdf},
   doi = {10.1145/3634737.3637640}
 }
-@inproceedings{wagner2024when_and_how,
-	title        = {{When and How to Aggregate Message Authentication Codes on Lossy Channels?}},
+@inproceedings{wagner2024mac_aggregation,
+	title        = {{When and How to Aggregate Message Authentication Codes on Lossy Channels?}},
 	author       = {Wagner, Eric and Serror, Martin and Wehrle, Klaus and Henze, Martin},
 	year         = {2024},
 	booktitle    = {Proceedings of the International Conference on Applied Cryptography and Network Security~(ACNS'24)},
   abstract = {Aggregation of message authentication codes (MACs) is a proven and efficient method to preserve valuable bandwidth in resource-constrained environments: Instead of appending a long authentication tag to each message, the integrity protection of multiple messages is aggregated into a single tag. However, while such aggregation saves bandwidth, a single lost message typically means that authentication information for multiple messages cannot be verified anymore. With the significant increase of bandwidth-constrained lossy communication, as applications shift towards wireless channels, it thus becomes paramount to study the impact of packet loss on the diverse MAC aggregation schemes proposed over the past 15 years to assess when and how to aggregate message authentication. Therefore, we empirically study all relevant MAC aggregation schemes in the context of lossy channels, investigating achievable goodput improvements, the resulting verification delays, processing overhead, and resilience to denial-of-service attacks. Our analysis shows the importance of carefully choosing and configuring MAC aggregation, as selecting and correctly parameterizing the right scheme can, e.g., improve goodput by 39 % to 444 %, depending on the scenario. However, since no aggregation scheme performs best in all scenarios, we provide guidelines for network operators to select optimal schemes and parameterizations suiting specific network settings.},
   google_scholar_id = {sSrBHYA8nusC},
   bibtex_show = {true},
-  pdf = {wagner2024when_and_how.pdf},
+  pdf = {wagner2024mac_aggregation.pdf},
   doi = {10.1007/978-3-031-54773-7_10}
 }
 @inproceedings{wolsing2024challenges,
@@ -105,7 +106,7 @@
   pdf = {wolsing2024challenges.pdf},
   doi = {10.1007/978-3-031-82349-7_29}
 }
-@inproceedings{2018_hiller_secure,
+@inproceedings{hiller2018secure,
 	title        = {{Secure Low Latency Communication for Constrained Industrial IoT Scenarios}},
 	author       = {Hiller, Jens and Henze, Martin and Serror, Martin and Wagner, Eric and Richter, Jan Niklas and Wehrle, Klaus},
 	year         = {2018},
@@ -174,18 +175,6 @@
   code = {https://github.com/fkie-cad/bpmac},
   doi = {10.1145/3507657.3528554}
 }
-@inproceedings{kus2022false,
-	title        = {{A False Sense of Security? Revisiting the State of Machine Learning-Based Industrial Intrusion Detection}},
-	author       = {Kus, Dominik and Wagner, Eric and Pennekamp, Jan and Wolsing, Konrad and Fink, Ina Berenice and Dahlmanns, Markus and Wehrle, Klaus and Henze, Martin},
-	year         = {2022},
-	booktitle    = {Proceedings of the 8th ACM Cyber-Physical System Security Workshop (CPSS'22)},
-  abstract = {Anomaly-based intrusion detection promises to detect novel or unknown attacks on industrial control systems by modeling expected system behavior and raising corresponding alarms for any deviations. As manually creating these behavioral models is tedious and error-prone, research focuses on machine learning to train them automatically, achieving detection rates upwards of 99 %. However, these approaches are typically trained not only on benign traffic but also on attacks and then evaluated against the same type of attack used for training. Hence, their actual, real-world performance on unknown (not trained on) attacks remains unclear. In turn, the reported near-perfect detection rates of machine learning-based intrusion detection might create a false sense of security. To assess this situation and clarify the real potential of machine learning-based industrial intrusion detection, we develop an evaluation methodology and examine multiple approaches from literature for their performance on unknown attacks (excluded from training). Our results highlight an ineffectiveness in detecting unknown attacks, with detection rates dropping to between 3.2 % and 14.7 % for some types of attacks. Moving forward, we derive recommendations for further research on machine learning-based approaches to ensure clarity on their ability to detect unknown attacks.},
-  google_scholar_id = {_xSYboBqXhAC},
-  bibtex_show = {true},
-  pdf = {kus2022false.pdf},
-  artifacts = {https://github.com/COMSYS/ML-IIDS-generalizability},
-  doi = {10.1145/3494107.3522773}
-}
 @inproceedings{wagner2022spmac,
 	title        = {{Take a Bite of the Reality Sandwich: Revisiting the Security of Progressive Message Authentication Codes}},
 	author       = {Wagner, Eric and Bauer, Jan and Henze, Martin},
@@ -197,6 +186,18 @@
   code = {https://github.com/fkie-cad/spmac},
   pdf = {wagner2022spmac.pdf},
   doi = {10.1145/3507657.3528539}
+}
+@inproceedings{kus2022generalizability,
+	title        = {{A False Sense of Security? Revisiting the State of Machine Learning-Based Industrial Intrusion Detection}},
+	author       = {Kus, Dominik and Wagner, Eric and Pennekamp, Jan and Wolsing, Konrad and Fink, Ina Berenice and Dahlmanns, Markus and Wehrle, Klaus and Henze, Martin},
+	year         = {2022},
+	booktitle    = {Proceedings of the 8th ACM Cyber-Physical System Security Workshop (CPSS'22)},
+  abstract = {Anomaly-based intrusion detection promises to detect novel or unknown attacks on industrial control systems by modeling expected system behavior and raising corresponding alarms for any deviations. As manually creating these behavioral models is tedious and error-prone, research focuses on machine learning to train them automatically, achieving detection rates upwards of 99 %. However, these approaches are typically trained not only on benign traffic but also on attacks and then evaluated against the same type of attack used for training. Hence, their actual, real-world performance on unknown (not trained on) attacks remains unclear. In turn, the reported near-perfect detection rates of machine learning-based intrusion detection might create a false sense of security. To assess this situation and clarify the real potential of machine learning-based industrial intrusion detection, we develop an evaluation methodology and examine multiple approaches from literature for their performance on unknown attacks (excluded from training). Our results highlight an ineffectiveness in detecting unknown attacks, with detection rates dropping to between 3.2 % and 14.7 % for some types of attacks. Moving forward, we derive recommendations for further research on machine learning-based approaches to ensure clarity on their ability to detect unknown attacks.},
+  google_scholar_id = {_xSYboBqXhAC},
+  bibtex_show = {true},
+  pdf = {kus2022generalizability.pdf},
+  artifacts = {https://github.com/COMSYS/ML-IIDS-generalizability},
+  doi = {10.1145/3494107.3522773}
 }
 @inproceedings{wagner2022ccchain,
 	title        = {{Scalable and Privacy-Focused Company-Centric Supply Chain Management}},
