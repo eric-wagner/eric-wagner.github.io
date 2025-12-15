@@ -88,22 +88,22 @@
 	author       = {Wagner, Eric and Serror, Martin and Wehrle, Klaus and Henze, Martin},
 	year         = {2024},
 	booktitle    = {Proceedings of the International Conference on Applied Cryptography and Network Security~(ACNS'24)},
-  abstract = {},
+  abstract = {Aggregation of message authentication codes (MACs) is a proven and efficient method to preserve valuable bandwidth in resource-constrained environments: Instead of appending a long authentication tag to each message, the integrity protection of multiple messages is aggregated into a single tag. However, while such aggregation saves bandwidth, a single lost message typically means that authentication information for multiple messages cannot be verified anymore. With the significant increase of bandwidth-constrained lossy communication, as applications shift towards wireless channels, it thus becomes paramount to study the impact of packet loss on the diverse MAC aggregation schemes proposed over the past 15 years to assess when and how to aggregate message authentication. Therefore, we empirically study all relevant MAC aggregation schemes in the context of lossy channels, investigating achievable goodput improvements, the resulting verification delays, processing overhead, and resilience to denial-of-service attacks. Our analysis shows the importance of carefully choosing and configuring MAC aggregation, as selecting and correctly parameterizing the right scheme can, e.g., improve goodput by 39 % to 444 %, depending on the scenario. However, since no aggregation scheme performs best in all scenarios, we provide guidelines for network operators to select optimal schemes and parameterizations suiting specific network settings.},
   google_scholar_id = {sSrBHYA8nusC},
   bibtex_show = {true},
-  pdf = {},
-  doi = {}
+  pdf = {wagner2024when_and_how.pdf},
+  doi = {10.1007/978-3-031-54773-7_10}
 }
 @inproceedings{wolsing2024challenges,
 	title        = {{Deployment Challenges of Industrial Intrusion Detection Systems}},
 	author       = {Wolsing, Konrad AND Wagner, Eric AND Basels, Frederik AND Wagner, Patrick AND Wehrle, Klaus},
 	year         = {2024},
 	booktitle    = {{Proceedings of the 10th Workshop on the Security of Industrial Control Systems \& of Cyber-Physical Systems (ICPS'24)}},
-  abstract = {},
+  abstract = {With the escalating threats posed by cyberattacks on Industrial Control Systems (ICSs), the development of customized Industrial Intrusion Detection Systems (IIDSs) received significant attention in research. While the existing literature proposes effective IIDS solutions evaluated in controlled environments, their deployment in real-world industrial settings poses several challenges. Adding to known obstructions, this paper highlights two critical aspects that significantly impact IIDSs’ practical deployment, i.e., the need for sufficient amounts of data to train the IIDS models and the challenges associated with finding suitable hyperparameters, especially for IIDSs training only on normal ICS data. Through empirical experiments conducted on multiple state-of-the-art IIDSs and diverse datasets, we establish the criticality of these issues in deploying IIDSs in ICS environments. Our findings show the necessity of extensive malicious training data for supervised IIDSs, which can be impractical considering the complexity of recording and labeling attacks in actual ICSs. Furthermore, while other IIDSs circumvent the previous issue by requiring only benign training data, these can suffer from the difficulty of setting appropriate hyperparameters, which likewise can diminish their performance. By shedding light on these challenges, we aim to enhance the current understanding of limitations and considerations necessary for deploying effective cybersecurity solutions in ICSs, which might be one reason why IIDSs see few deployments.},
   google_scholar_id = {BrmTIyaxlBUC},
   bibtex_show = {true},
   pdf = {wolsing2024challenges.pdf},
-  doi = {}
+  doi = 10.1007/978-3-031-82349-7_29{}
 }
 @inproceedings{2018_hiller_secure,
 	title        = {{Secure Low Latency Communication for Constrained Industrial IoT Scenarios}},
@@ -123,145 +123,150 @@
 	author       = {Wagner, Eric AND Völker, Achim AND Fuhrmann, Frederik AND Matzutt, Roman AND Wehrle, Klaus},
 	year         = {2019},
 	booktitle    = {{Proceedings of the 2019 IEEE International Conference on Blockchain and Cryptocurrency (ICBC'19)}},
-  abstract = {},
+  abstract = {Blockchain systems promise to mediate interactions of mutually distrusting parties without a trusted third party. However, protocols with full smart contract-based security are either limited in functionality or complex, with high costs for secured interactions. This observation leads to the development of protocol-specific schemes to avoid costly dispute resolution in case all participants remain honest. In this paper, we introduce SmartJudge, an extensible generalization of this trend for smart contract-based two-party protocols. SmartJudge relies on a protocol-independent mediator smart contract that moderates two-party interactions and only consults protocol-specific verifier smart contracts in case of a dispute. This way, SmartJudge avoids verification costs in absence of disputes and sustains interaction confidentiality among honest parties. We implement verifier smart contracts for cross-blockchain trades and exchanging digital goods and show that SmartJudge can reduce costs by 46-50% and 22% over current state of the art, respectively.},
   google_scholar_id = {hMod-77fHWUC},
   bibtex_show = {true},
   pdf = {wagner2019smartjudge.pdf},
-  doi = {}
+  code={https://github.com/COMSYS/smartjudge},
+  doi = {10.1109/BLOC.2019.8751312}
 }
 @inproceedings{serror2020qwin,
 	title        = {{QWIN: Facilitating QoS in Wireless Industrial Networks Through Cooperation}},
 	author       = {Serror, Martin and Wagner, Eric and Glebke, René and Wehrle, Klaus},
 	year         = {2020},
 	booktitle    = {Proceedings of the IFIP/IEEE Networking Conference~(NETWORKING'20)},
-  abstract = {},
+  abstract = {For successfully establishing wireless communication in industrial environments, new approaches supporting the stringent requirements of industrial machine-to-machine communication are needed. Thereby, the main challenge is that different applications with distinct requirements compete against each other on the same wireless communication medium. Then again, an essential property of industrial scenarios is that the participating stations typically collaboratively work toward a common goal. In this paper, we thus investigate QWIN, a novel approach that leverages this cooperative nature by enabling the stations to share the scarce transmission resources. The stations hence offload their priority queues into the network and share them according to the quality-of-service requirements imposed by the overlying industrial applications. We implemented the cooperation mechanisms on prototypical hardware and evaluated them in a real-world testbed and by simulations. The evaluation reveals that our distributed decision approach effectively ensures that higher priority messages are conveyed more reliably within 1ms, without reducing the reliability of lower priority messages.},
   google_scholar_id = {35N4QoGY0k4C},
   bibtex_show = {true},
   pdf = {serror2020qwin.pdf},
-  doi = {}
 }
 @inproceedings{wolsing2020facilitating,
 	title        = {{Poster: Facilitating Protocol-independent Industrial Intrusion Detection Systems}},
 	author       = {Wolsing, Konrad and Wagner, Eric and Henze, Martin},
 	year         = {2020},
 	booktitle    = {Proceedings of the 2020 ACM SIGSAC Conference on Computer and Communications Security~(CCS'20)},
-  abstract = {},
+  abstract = {Cyber-physical systems are increasingly threatened by sophisticated attackers, also attacking the physical aspect of systems. Supplementing protective measures, industrial intrusion detection systems promise to detect such attacks. However, due to industrial protocol diversity and lack of standard interfaces, great efforts are required to adapt these technologies to a large number of different protocols. To address this issue, we identify existing universally applicable intrusion detection approaches and propose a transcription for industrial protocols to realize protocol-independent semantic intrusion detection on top of different industrial protocols.},
   google_scholar_id = {M05iB0D1s5AC},
   bibtex_show = {true},
   pdf = {wolsing2020facilitating.pdf},
-  doi = {}
+  doi = {10.1145/3372297.3420019}
 }
 @inproceedings{pennekamp2021collaboration,
 	title        = {{Collaboration is not Evil: A Systematic Look at Security Research for Industrial Use}},
 	author       = {Pennekamp, Jan AND Buchholz, Erik AND Dahlmanns, Markus AND Kunze, Ike AND Braun, Stefan AND Wagner, Eric AND Brockmann, Matthias AND Wehrle, Klaus AND Henze, Martin},
 	year         = {2021},
 	booktitle    = {{Proceedings of the Workshop on Learning from Authoritative Security Experiment Results (LASER'21)}},
-  abstract = {},
+  abstract = {Following the recent Internet of Things-induced trends on digitization in general, industrial applications will further evolve as well. With a focus on the domains of manufacturing and production, the Internet of Production pursues the vision of a digitized, globally interconnected, yet secure environment by establishing a distributed knowledge base. Background. As part of our collaborative research of advancing the scope of industrial applications through cybersecurity and privacy, we identified a set of common challenges and pitfalls that surface in such applied interdisciplinary collaborations. Aim. Our goal with this paper is to support researchers in the emerging field of cybersecurity in industrial settings by formalizing our experiences as reference for other research efforts, in industry and academia alike. Method. Based on our experience, we derived a process cycle of performing such interdisciplinary research, from the initial idea to the eventual dissemination and paper writing. This presented methodology strives to successfully bootstrap further research and to encourage further work in this emerging area. Results. Apart from our newly proposed process cycle, we report on our experiences and conduct a case study applying this methodology, raising awareness for challenges in cybersecurity research for industrial applications. We further detail the interplay between our process cycle and the data lifecycle in applied research data management. Finally, we augment our discussion with an industrial as well as an academic view on this research area and highlight that both areas still have to overcome significant challenges to sustainably and securely advance industrial applications. Conclusions. With our proposed process cycle for interdisciplinary research in the intersection of cybersecurity and industrial application, we provide a foundation for further research. We look forward to promising research initiatives, projects, and directions that emerge based on our methodological work.},
   google_scholar_id = {pyW8ca7W8N0C},
   bibtex_show = {true},
   pdf = {pennekamp2021collaboration.pdf},
-  doi = {}
+  doi = {10.14722/laser-acsac.2020.23088}
 }
 @inproceedings{wagner2022bpmac,
 	title        = {{BP-MAC: Fast Authentication for Short Messages}},
 	author       = {Eric Wagner and Martin Serror and Klaus Wehrle and Martin Henze},
 	year         = {2022},
 	booktitle    = {{Proceedings of the 15th ACM Conference on Security and Privacy in Wireless and Mobile Networks~(WiSec'22)}},
-  abstract = {},
+  abstract = {Resource-constrained devices increasingly rely on wireless communication for the reliable and low-latency transmission of short messages. However, especially the implementation of adequate integrity protection of time-critical messages places a significant burden on these devices. We address this issue by proposing BP-MAC, a fast and memory-efficient approach for computing message authentication codes based on the well-established Carter-Wegman construction. Our key idea is to offload resource-intensive computations to idle phases and thus save valuable time in latency-critical phases, i.e., when new data awaits processing. Therefore, BP-MAC leverages a universal hash function designed for the bitwise preprocessing of integrity protection to later only require a few XOR operations during the latency-critical phase. Our evaluation on embedded hardware shows that BP-MAC outperforms the state-of-the-art in terms of latency and memory overhead, notably for small messages, as required to adequately protect resource-constrained devices with stringent security and latency requirements.},
   google_scholar_id = {b0M2c_1WBrUC},
   bibtex_show = {true},
   pdf = {wagner2022bpmac.pdf},
-  doi = {}
+  code = {https://github.com/fkie-cad/bpmac},
+  doi = {10.1145/3507657.3528554}
 }
 @inproceedings{kus2022false,
 	title        = {{A False Sense of Security? Revisiting the State of Machine Learning-Based Industrial Intrusion Detection}},
 	author       = {Kus, Dominik and Wagner, Eric and Pennekamp, Jan and Wolsing, Konrad and Fink, Ina Berenice and Dahlmanns, Markus and Wehrle, Klaus and Henze, Martin},
 	year         = {2022},
 	booktitle    = {Proceedings of the 8th ACM Cyber-Physical System Security Workshop (CPSS'22)},
-  abstract = {},
+  abstract = {Anomaly-based intrusion detection promises to detect novel or unknown attacks on industrial control systems by modeling expected system behavior and raising corresponding alarms for any deviations. As manually creating these behavioral models is tedious and error-prone, research focuses on machine learning to train them automatically, achieving detection rates upwards of 99 %. However, these approaches are typically trained not only on benign traffic but also on attacks and then evaluated against the same type of attack used for training. Hence, their actual, real-world performance on unknown (not trained on) attacks remains unclear. In turn, the reported near-perfect detection rates of machine learning-based intrusion detection might create a false sense of security. To assess this situation and clarify the real potential of machine learning-based industrial intrusion detection, we develop an evaluation methodology and examine multiple approaches from literature for their performance on unknown attacks (excluded from training). Our results highlight an ineffectiveness in detecting unknown attacks, with detection rates dropping to between 3.2 % and 14.7 % for some types of attacks. Moving forward, we derive recommendations for further research on machine learning-based approaches to ensure clarity on their ability to detect unknown attacks.},
   google_scholar_id = {_xSYboBqXhAC},
   bibtex_show = {true},
   pdf = {kus2022false.pdf},
-  doi = {}
+  artifacts = {https://github.com/COMSYS/ML-IIDS-generalizability},
+  doi = {10.1145/3494107.3522773}
 }
 @inproceedings{wagner2022spmac,
 	title        = {{Take a Bite of the Reality Sandwich: Revisiting the Security of Progressive Message Authentication Codes}},
 	author       = {Wagner, Eric and Bauer, Jan and Henze, Martin},
 	year         = {2022},
 	booktitle    = {Proceedings of the 15th ACM Conference on Security and Privacy in Wireless and Mobile Networks~(WiSec'22)},
-  abstract = {},
+  abstract = {Message authentication guarantees the integrity of messages exchanged over untrusted channels. However, to achieve this goal, message authentication considerably expands packet sizes, which is especially problematic in constrained wireless environments. To address this issue, progressive message authentication provides initially reduced integrity protection that is often sufficient to process messages upon reception. This reduced security is then successively improved with subsequent messages to uphold the strong guarantees of traditional integrity protection. However, contrary to previous claims, we show in this paper that existing progressive message authentication schemes are highly susceptible to packet loss induced by poor channel conditions or jamming attacks. Thus, we consider it imperative to rethink how authentication tags depend on the successful reception of surrounding packets. To this end, we propose R2-D2, which uses randomized dependencies with parameterized security guarantees to increase the resilience of progressive authentication against packet loss. To deploy our approach to resource-constrained devices, we introduce SP-MAC, which implements R2-D2 using efficient XOR operations. Our evaluation shows that SP-MAC is resilient to sophisticated network-level attacks and operates as resources-conscious and fast as existing, yet insecure, progressive message authentication schemes.},
   google_scholar_id = {zA6iFVUQeVQC},
   bibtex_show = {true},
+  code = {https://github.com/fkie-cad/spmac},
   pdf = {wagner2022spmac.pdf},
-  doi = {}
+  doi = {10.1145/3507657.3528539}
 }
 @inproceedings{wagner2022ccchain,
 	title        = {{Scalable and Privacy-Focused Company-Centric Supply Chain Management}},
 	author       = {Wagner, Eric and Matzutt, Roman and Pennekamp, Jan and Bader, Lennart and Bajelidze, Irakli and Wehrle, Klaus and Henze, Martin},
 	year         = {2022},
 	booktitle    = {Proceedings of the 2022 IEEE International Conference on Blockchain and Cryptocurrency (ICBC'22)},
-  abstract = {},
+  abstract = {Blockchain technology promises to overcome trust and privacy concerns inherent to centralized information sharing. However, current decentralized supply chain management systems do either not meet privacy and scalability requirements or require a trustworthy consortium, which is challenging for increasingly dynamic supply chains with constantly changing participants. In this paper, we propose CCChain, a scalable and privacy-aware supply chain management system that stores all information locally to give companies complete sovereignty over who accesses their data. Still, tamper protection of all data through a permissionless blockchain enables on-demand tracking and tracing of products as well as reliable information sharing while affording the detection of data inconsistencies. Our evaluation confirms that CCChain offers superior scalability in comparison to alternatives while also enabling near real-time tracking and tracing for many, less complex products.},
   google_scholar_id = {bFI3QPDXJZMC},
   bibtex_show = {true},
   pdf = {wagner2022ccchain.pdf},
-  doi = {}
+  doi = {10.1109/ICBC54727.2022.9805503}
 }
 @inproceedings{wolsing2022radar,
 	title        = {{Network Attacks Against Marine Radar Systems: A Taxonomy, Simulation Environment, and Dataset}},
 	author       = {Wolsing, Konrad and Saillard, Antoine and Bauer, Jan and Wagner, Eric and van Sloun, Christian and Fink, Ina Berenice and Schmidt, Mari and Wehrle, Klaus and Henze, Martin},
 	year         = {2022},
 	booktitle    = {Proceedings of the 47th IEEE Conference on Local Computer Networks (LCN'22)},
-  abstract = {},
+  abstract = {Shipboard marine radar systems are essential for safe navigation, helping seafarers perceive their surroundings as they provide bearing and range estimations, object detection, and tracking. Since onboard systems have become increasingly digitized, interconnecting distributed electronics, radars have been integrated into modern bridge systems. But digitization increases the risk of cyberattacks, especially as vessels cannot be considered air-gapped. Consequently, in-depth security is crucial. However, particularly radar systems are not sufficiently protected against harmful network-level adversaries. Therefore, we ask: Can seafarers believe their eyes? In this paper, we identify possible attacks on radar communication and discuss how these threaten safe vessel operation in an attack taxonomy. Furthermore, we develop a holistic simulation environment with radar, complementary nautical sensors, and prototypically implemented cyberattacks from our taxonomy. Finally, leveraging this environment, we create a comprehensive dataset (RadarPWN) with radar network attacks that provides a foundation for future security research to secure marine radar communication.},
   google_scholar_id = {1sJd4Hv_s6UC},
   bibtex_show = {true},
   pdf = {wolsing2022radar.pdf},
-  dataset = {},
-  doi = {}
+  dataset = {https://zenodo.org/records/7188636},
+  doi = {10.1109/LCN53696.2022.9843801}
 }
 @inproceedings{wolsing2022simple,
 	title        = {{Can Industrial Intrusion Detection Be SIMPLE?}},
 	author       = {Wolsing, Konrad and Thiemt, Lea and van Sloun, Christian and Wagner, Eric and Wehrle, Klaus and Henze, Martin},
 	year         = {2022},
 	booktitle    = {Proceedings of the 27th European Symposium on Research in Computer Security (ESORICS'22)},
-  abstract = {},
+  abstract = {Cyberattacks against industrial control systems pose a serious risk to the safety of humans and the environment. Industrial intrusion detection systems oppose this threat by continuously monitoring industrial processes and alerting any deviations from learned normal behavior. To this end, various streams of research rely on advanced and complex approaches, i.e., artificial neural networks, thus achieving allegedly high detection rates. However, as we show in an analysis of 70 approaches from related work, their inherent complexity comes with undesired properties. For example, they exhibit incomprehensible alarms and models only specialized personnel can understand, thus limiting their broad applicability in a heterogeneous industrial domain. Consequentially, we ask whether industrial intrusion detection indeed has to be complex or can be SIMPLE instead, i.e., Sufficient to detect most attacks, Independent of hyperparameters to dial-in, Meaningful in model and alerts, Portable to other industrial domains, Local to a part of the physical process, and computationally Efficient. To answer this question, we propose our design of four SIMPLE industrial intrusion detection systems, such as simple tests for the minima and maxima of process values or the rate at which process values change. Our evaluation of these SIMPLE approaches on four state-of-the-art industrial security datasets reveals that SIMPLE approaches can perform on par with existing complex approaches from related work while simultaneously being comprehensible and easily portable to other scenarios. Thus, it is indeed justified to raise the question of whether industrial intrusion detection needs to be inherently complex.},
   google_scholar_id = {P5F9QuxV20EC},
   bibtex_show = {true},
+  code = {https://github.com/fkie-cad/ipal_ids_framework},
   pdf = {wolsing2022simple.pdf},
-  doi = {}
+  doi = {10.1007/978-3-031-17143-7_28}
 }
 @inproceedings{wolsing2022ipal,
 	title        = {{IPAL: Breaking Up Silos of Protocol-Dependent and Domain-Specific Industrial Intrusion Detection Systems}},
 	author       = {Wolsing, Konrad and Wagner, Eric and Saillard, Antoine and Henze, Martin},
 	year         = {2022},
 	booktitle    = {Proceedings of the 25th International Symposium on Research in Attacks, Intrusions and Defenses~(RAID'22)},
-  abstract = {},
+  abstract = {The increasing interconnection of industrial networks exposes them to an ever-growing risk of cyber attacks. To reveal such attacks early and prevent any damage, industrial intrusion detection searches for anomalies in otherwise predictable communication or process behavior. However, current efforts mostly focus on specific domains and protocols, leading to a research landscape broken up into isolated silos. Thus, existing approaches cannot be applied to other industries that would equally benefit from powerful detection. To better understand this issue, we survey 53 detection systems and find no fundamental reason for their narrow focus. Although they are often coupled to specific industrial protocols in practice, many approaches could generalize to new industrial scenarios in theory. To unlock this potential, we propose IPAL, our industrial protocol abstraction layer, to decouple intrusion detection from domain-specific industrial protocols. After proving IPAL’s correctness in a reproducibility study of related work, we showcase its unique benefits by studying the generalizability of existing approaches to new datasets and conclude that they are indeed not restricted to specific domains or protocols and can perform outside their restricted silos.},
   google_scholar_id = {yD5IFk8b50cC},
   bibtex_show = {true},
   pdf = {wolsing2022ipal.pdf},
-  doi = {}
+  code = {https://github.com/fkie-cad/ipal_ids_framework},
+  doi = {10.1145/3545948.3545968}
 }
 @inproceedings{zemanek2022powerduck,
 	title        = {{PowerDuck: A GOOSE Data Set of Cyberattacks in Substations}},
 	author       = {Zemanek, Sven and Hacker, Immanuel and Wolsing, Konrad and Wagner, Eric and Henze, Martin and Serror, Martin},
 	year         = {2022},
 	booktitle    = {Proceedings of the 15th Workshop on Cyber Security Experimentation and Test (CSET'22)},
-  abstract = {},
+  abstract = {Power grids worldwide are increasingly victims of cyberattacks, where attackers can cause immense damage to critical infrastructure. The growing digitalization and networking in power grids combined with insufficient protection against cyberattacks further exacerbate this trend. Hence, security engineers and researchers must counter these new risks by continuously improving security measures. Data sets of real network traffic during cyberattacks play a decisive role in analyzing and understanding such attacks. Therefore, this paper presents PowerDuck, a publicly available security data set containing network traces of GOOSE communication in a physical substation testbed. The data set includes recordings of various scenarios with and without the presence of attacks. Furthermore, all network packets originating from the attacker are clearly labeled to facilitate their identification. We thus envision PowerDuck improving and complementing existing data sets of substations, which are often generated synthetically, thus enhancing the security of power grids.},
   google_scholar_id = {CHSYGLWDkRkC},
   bibtex_show = {true},
-  dataset = {},
+  dataset = {https://zenodo.org/records/6974112},
   pdf = {zemanek2022powerduck.pdf},
-  doi = {}
+  doi = {10.1145/3546096.3546102}
 }
 @inproceedings{bader2023metrics,
 	title        = {{METRICS: A Methodology for Evaluating and Testing the Resilience of Industrial Control Systems to Cyberattacks}},
 	author       = {Bader, Lennart and Wagner, Eric and Henze, Martin and Serror, Martin},
 	year         = {2023},
 	booktitle    = {Proceedings of the 8th Workshop on the Security of Industrial Control Systems \& of Cyber-Physical Systems (CyberICPS'23)},
-  abstract = {},
+  abstract = {The increasing digitalization and interconnectivity of industrial control systems (ICSs) create enormous benefits, such as enhanced productivity and flexibility, but also amplify the impact of cyberattacks. Cybersecurity research thus continuously needs to adapt to new threats while proposing comprehensive security mechanisms for the ICS domain. As a prerequisite, researchers need to understand the resilience of ICSs against cyberattacks by systematically testing new security approaches without interfering with productive systems. Therefore, one possibility for such evaluations is using already available ICS testbeds and datasets. However, the heterogeneity of the industrial landscape poses great challenges to obtaining comparable and transferable results. In this paper, we propose to bridge this gap with METRICS, a methodology for systematic resilience evaluation of ICSs. METRICS complements existing ICS testbeds by enabling the configuration of measurement campaigns for comprehensive resilience evaluations. Therefore, the user specifies individual evaluation scenarios consisting of cyberattacks and countermeasures while facilitating manual and automatic interventions. Moreover, METRICS provides domain-agnostic evaluation capabilities to achieve comparable results, which user-defined domain-specific metrics can complement. We apply the methodology in a use case study with the power grid simulator Wattson, demonstrating its effectiveness in providing valuable insights for security practitioners and researchers.},
   google_scholar_id = {WbkHhVStYXYC},
   bibtex_show = {true},
   pdf = {bader2023metrics.pdf},
-  doi = {}
+  doi = {10.1007/978-3-031-54204-6_2}
 }
 @article{lamberts2023sok,
 	title        = {{SoK: Evaluations in Industrial Intrusion Detection Research}},
@@ -283,22 +288,25 @@
 	author       = {Wagner, Eric and Rothaug, Nils and Wolsing, Konrad and Bader, Lennart and Wehrle, Klaus and Henze, Martin},
 	year         = {2023},
 	booktitle    = {Proceedings of the IEEE 48th Conference on Local Computer Networks~(LCN'23)},
-  abstract = {},
+  abstract = {Industrial networks become increasingly interconnected, which opens the floodgates for cyberattacks on legacy networks designed without security in mind. Consequently, the vast landscape of legacy industrial communication protocols urgently demands a universal solution to integrate security features retroactively. However, current proposals are hardly adaptable to new scenarios and protocols, even though most industrial protocols share a common theme: Due to their progressive development, previously important legacy features became irrelevant and resulting unused protocol fields now offer a unique opportunity for retrofitting security. Our analysis of three prominent protocols shows that headers offer between 36 and 63 bits of unused space. To take advantage of this space, we designed the REtrofittable ProtEction Library (RePeL), which supports embedding authentication tags into arbitrary combinations of unused header fields. We show that RePeL incurs negligible overhead beyond the cryptographic processing, which can be adapted to hit performance targets or fulfill legal requirements.},
   google_scholar_id = {XiSMed-E-HIC},
   bibtex_show = {true},
+  code = {https://github.com/fkie-cad/RePeL},
   pdf = {wagner2023repel.pdf},
-  doi = {}
+  doi = {10.1109/LCN58197.2023.10223384}
 }
 @inproceedings{wolsing2023ensemble,
 	title        = {{One IDS is not Enough! Exploring Ensemble Learning for Industrial Intrusion Detection}},
 	author       = {Wolsing, Konrad and Kus, Dominik and Wagner, Eric and Pennekamp, Jan and Wehrle, Klaus and Henze, Martin},
 	year         = {2023},
 	booktitle    = {Proceedings of the 28th European Symposium on Research in Computer Security (ESORICS'23)},
-  abstract = {},
+  abstract = {Industrial Intrusion Detection Systems (IIDSs) play a critical role in safeguarding Industrial Control Systems (ICSs) against targeted cyberattacks. Unsupervised anomaly detectors, capable of learning the expected behavior of physical processes, have proven effective in detecting even novel cyberattacks. While offering decent attack detection, these systems, however, still suffer from too many False-Positive Alarms (FPAs) that operators need to investigate, eventually leading to alarm fatigue. To address this issue, in this paper, we challenge the notion of relying on a single IIDS and explore the benefits of combining multiple IIDSs. To this end, we examine the concept of ensemble learning, where a collection of classifiers (IIDSs in our case) are combined to optimize attack detection and reduce FPAs. While training ensembles for supervised classifiers is relatively straightforward, retaining the unsupervised nature of IIDSs proves challenging. In that regard, novel time-aware ensemble methods that incorporate temporal correlations between alerts and transfer-learning to best utilize the scarce training data constitute viable solutions. By combining diverse IIDSs, the detection performance can be improved beyond the individual approaches with close to no FPAs, resulting in a promising path for strengthening ICS cybersecurity.},
   google_scholar_id = {738O_yMBCRsC},
   bibtex_show = {true},
   pdf = {wolsing2023ensemble.pdf},
-  doi = {}
+  code = {https://github.com/fkie-cad/ipal_ids_framework},
+  artifacts = {https://zenodo.org/doi/10.5281/zenodo.8256012},
+  doi = {10.1007/978-3-031-51476-0_6}
 }
 @incollection{pennekamp2024blockchain_technology,
 	title        = {{Blockchain Technology Accelerating Industry 4.0}},
