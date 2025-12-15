@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /assets/pdf/wagner2025caiba.pdf
+permalink: assets/pdf/cv_eric_wagner.pdf
 title: CV
 nav: true
 nav_order: 6
