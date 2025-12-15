@@ -1,7 +1,7 @@
 ---
 layout: about
 title: About Me
-nav: false
+nav: true
 permalink: /
 subtitle: <a href='#'>University of Luxembourg</a>
 
@@ -18,7 +18,7 @@ social: true # includes social icons at the bottom of the page
 announcements:
   enabled: true # includes a list of news items
   scrollable: false # adds a vertical scroll bar if there are more than 3 news items
-  limit: 10 # leave blank to include all the news in the `_news` folder
+  limit: 6 # leave blank to include all the news in the `_news` folder
 ---
 
 TODO
