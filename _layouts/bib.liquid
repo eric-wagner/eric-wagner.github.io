@@ -259,7 +259,7 @@
       {% if entry.artifact %}
         <a href="{{ entry.artifact }}" class="btn btn-sm z-depth-0" role="button">Artifacts</a>
       {% endif %}
-    </div>
+
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}
@@ -362,6 +362,8 @@
         </div>
       {% endif %}
     {% endif %}
+
+    </div>
 
     {% if entry.award %}
       <!-- Hidden Award block -->
