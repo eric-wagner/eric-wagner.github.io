@@ -6,6 +6,7 @@ github_repos:
   - fkie-cad/ipal_ids_framework
   - fkie-cad/ipal_transcriber
   - fkie-cad/ipal_datasets
+  - fkie-cad/ipal_evaluate
   - eric-wagner/thRSAhold
   - fkie-cad/bpmac
   - COMSYS/smartjudge
