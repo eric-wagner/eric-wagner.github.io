@@ -281,7 +281,7 @@
         {% assign entry_has_inspirehep_badge = true %}
       {% endif %}
       {% if entry_has_altmetric_badge or entry_has_dimensions_badge or entry_has_google_scholar_badge or entry_has_inspirehep_badge %}
-        <div class="badges">
+        
           {% if site.enable_publication_badges.altmetric and entry_has_altmetric_badge %}
             <span
               class="altmetric-embed"
@@ -322,6 +322,7 @@
               href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user={{ site.data.socials.scholar_userid }}&citation_for_view={{ site.data.socials.scholar_userid }}:{{ entry.google_scholar_id }}"
               aria-label="Google Scholar link"
               role="button"
+              class="badges"
             >
               {% assign citation_count = 0 %}
               {% assign scholar_id_key = site.scholar_userid | append: ':' | append: entry.google_scholar_id %}
@@ -359,7 +360,7 @@
               >
             </a>
           {% endif %}
-        </div>
+        
       {% endif %}
     {% endif %}
 
