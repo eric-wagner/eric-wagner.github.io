@@ -37,19 +37,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-curriculum-vitae",
+          title: "Curriculum Vitae",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/assets/pdf/cv_eric_wagner.pdf";
           },
-        },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather.html";
-            },},{id: "news-our-paper-on-generalizable-and-comprehensible-industrial-intrusion-detection-was-accepted-at-usenix-security-2025",
+        },{id: "news-our-paper-on-generalizable-and-comprehensible-industrial-intrusion-detection-was-accepted-at-usenix-security-2025",
           title: 'Our paper on generalizable and comprehensible industrial intrusion detection was accepted at USENIX...',
           description: "",
           section: "News",},{id: "news-paper-on-multicast-source-authentication-for-can-bus-communication-accepted-at-ieee-euros-amp-amp-p-2025",
