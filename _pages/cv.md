@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: assets/pdf/cv_eric_wagner.pdf
-title: CV
+title: Curriculum Vitae
 nav: true
 nav_order: 6
 cv_pdf: cv.pdf # you can also use external links here
