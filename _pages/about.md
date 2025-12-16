@@ -12,8 +12,8 @@ profile:
   more_info: >
     
     <p>University of Luxembourg</p>
-    <p>Systems and Network Security Group \n</p> 
-    <br>
+    <p>Systems and Network Security Group <br></p> 
+    
     <p>eric (dot) wagner (at) uni (dot) lu</p>
     
 
