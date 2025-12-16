@@ -44,8 +44,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/assets/pdf/cv_eric_wagner.pdf";
           },
-        },{id: "news-our-paper-on-generalizable-and-comprehensible-industrial-intrusion-detection-was-accepted-at-usenix-security-2025",
-          title: 'Our paper on generalizable and comprehensible industrial intrusion detection was accepted at USENIX...',
+        },{id: "news-paper-on-generalizable-and-comprehensible-industrial-intrusion-detection-accepted-at-usenix-security-2025",
+          title: 'Paper on generalizable and comprehensible industrial intrusion detection accepted at USENIX Security 2025....',
           description: "",
           section: "News",},{id: "news-paper-on-multicast-source-authentication-for-can-bus-communication-accepted-at-ieee-euros-amp-amp-p-2025",
           title: 'Paper on multicast source authentication for CAN bus communication accepted at IEEE EuroS&amp;amp;amp;P...',
