@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-20'
+  last_updated: '2025-12-29'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 29
@@ -66,15 +66,15 @@ papers:
     title: Retrofitting Integrity Protection into Unused Header Fields of Legacy Industrial Protocols
     year: '2023'
   9lYfEr4AAAAJ:Y5dfb0dijaUC:
-    citations: 2
+    citations: 3
     title: 'CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping'
     year: '2025'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-    citations: 35
+    citations: 36
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
-    citations: 16
+    citations: 17
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
