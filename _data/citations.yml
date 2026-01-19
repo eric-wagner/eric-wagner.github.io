@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2025-12-29'
+  last_updated: '2026-01-19'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 29
@@ -38,7 +38,7 @@ papers:
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
-    citations: 1
+    citations: 2
     title: MAC Aggregation over Lossy Channels in DTLS 1.3
     year: '2025'
   9lYfEr4AAAAJ:M05iB0D1s5AC:
@@ -46,7 +46,7 @@ papers:
     title: Facilitating protocol-independent industrial intrusion detection systems
     year: '2020'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 4
+    citations: 5
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:OU6Ihb5iCvQC:
@@ -70,11 +70,11 @@ papers:
     title: 'CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping'
     year: '2025'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-    citations: 36
+    citations: 37
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
-    citations: 17
+    citations: 19
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
@@ -90,7 +90,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 41
+    citations: 42
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -98,11 +98,11 @@ papers:
     title: 'Collaboration is not Evil: A Systematic Look at Security Research for Industrial Use'
     year: '2021'
   9lYfEr4AAAAJ:q3oQSFYPqjQC:
-    citations: 3
+    citations: 2
     title: Blockchain Technology Accelerating Industry 4.0
     year: '2024'
   9lYfEr4AAAAJ:sSrBHYA8nusC:
-    citations: 7
+    citations: 8
     title: When and How to Aggregate Message Authentication Codes on Lossy Channels
     year: '2024'
   9lYfEr4AAAAJ:tkaPQYYpVKoC:
@@ -110,7 +110,7 @@ papers:
     title: CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities
     year: '2025'
   9lYfEr4AAAAJ:u5HHmVD_uO8C:
-    citations: 68
+    citations: 69
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
@@ -122,6 +122,6 @@ papers:
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
-    citations: 17
+    citations: 19
     title: 'Take a bite of the reality sandwich: revisiting the security of progressive message authentication codes'
     year: '2022'
