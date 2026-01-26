@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-19'
+  last_updated: '2026-01-26'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 29
@@ -30,7 +30,7 @@ papers:
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 6
+    citations: 7
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
@@ -54,11 +54,11 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 28
+    citations: 29
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
-    citations: 2
+    citations: 3
     title: 'METRICS: A Methodology for Evaluating and Testing the Resilience of Industrial Control Systems to Cyberattacks'
     year: '2023'
   9lYfEr4AAAAJ:XiSMed-E-HIC:
@@ -66,11 +66,11 @@ papers:
     title: Retrofitting Integrity Protection into Unused Header Fields of Legacy Industrial Protocols
     year: '2023'
   9lYfEr4AAAAJ:Y5dfb0dijaUC:
-    citations: 3
+    citations: 5
     title: 'CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping'
     year: '2025'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-    citations: 37
+    citations: 38
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
@@ -78,7 +78,7 @@ papers:
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
-    citations: 8
+    citations: 9
     title: Scalable and privacy-focused company-centric supply chain management
     year: '2022'
   9lYfEr4AAAAJ:hMod-77fHWUC:
@@ -90,7 +90,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 42
+    citations: 43
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -110,7 +110,7 @@ papers:
     title: CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities
     year: '2025'
   9lYfEr4AAAAJ:u5HHmVD_uO8C:
-    citations: 69
+    citations: 70
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
