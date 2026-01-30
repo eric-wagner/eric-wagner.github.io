@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-01-26'
+  last_updated: '2026-01-30'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
-    citations: 29
+    citations: 30
     title: 'Network attacks against marine radar systems: A taxonomy, simulation environment, and dataset'
     year: '2022'
   9lYfEr4AAAAJ:35N4QoGY0k4C:
@@ -30,11 +30,11 @@ papers:
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 7
+    citations: 8
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 23
+    citations: 24
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
@@ -66,7 +66,7 @@ papers:
     title: Retrofitting Integrity Protection into Unused Header Fields of Legacy Industrial Protocols
     year: '2023'
   9lYfEr4AAAAJ:Y5dfb0dijaUC:
-    citations: 5
+    citations: 6
     title: 'CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping'
     year: '2025'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
