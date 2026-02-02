@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-01-30'
+  last_updated: '2026-02-02'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 30
@@ -66,7 +66,7 @@ papers:
     title: Retrofitting Integrity Protection into Unused Header Fields of Legacy Industrial Protocols
     year: '2023'
   9lYfEr4AAAAJ:Y5dfb0dijaUC:
-    citations: 6
+    citations: 5
     title: 'CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping'
     year: '2025'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
@@ -78,7 +78,7 @@ papers:
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
-    citations: 9
+    citations: 10
     title: Scalable and privacy-focused company-centric supply chain management
     year: '2022'
   9lYfEr4AAAAJ:hMod-77fHWUC:
@@ -90,7 +90,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 43
+    citations: 44
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
