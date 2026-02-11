@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-02'
+  last_updated: '2026-02-11'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 30
@@ -34,7 +34,7 @@ papers:
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 24
+    citations: 25
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
@@ -54,7 +54,7 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 29
+    citations: 31
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
@@ -90,7 +90,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 44
+    citations: 46
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -102,7 +102,7 @@ papers:
     title: Blockchain Technology Accelerating Industry 4.0
     year: '2024'
   9lYfEr4AAAAJ:sSrBHYA8nusC:
-    citations: 8
+    citations: 9
     title: When and How to Aggregate Message Authentication Codes on Lossy Channels
     year: '2024'
   9lYfEr4AAAAJ:tkaPQYYpVKoC:
@@ -110,18 +110,18 @@ papers:
     title: CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities
     year: '2025'
   9lYfEr4AAAAJ:u5HHmVD_uO8C:
-    citations: 70
+    citations: 71
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
     citations: 2
-    title: 'Seldom: An Anonymity Network with Selective Deanonymization'
-    year: '2024'
+    title: 'Seldom: An anonymity network with selective deanonymization'
+    year: '2026'
   9lYfEr4AAAAJ:yD5IFk8b50cC:
     citations: 54
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
-    citations: 19
+    citations: 20
     title: 'Take a bite of the reality sandwich: revisiting the security of progressive message authentication codes'
     year: '2022'
