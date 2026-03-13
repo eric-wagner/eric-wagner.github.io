@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-03-13'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 30
@@ -10,7 +10,7 @@ papers:
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 12
+    citations: 13
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -26,7 +26,7 @@ papers:
     title: 'Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication'
     year: '2024'
   9lYfEr4AAAAJ:9vf0nzSNQJEC:
-    citations: 1
+    citations: 2
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
@@ -34,15 +34,19 @@ papers:
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 27
+    citations: 28
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
     citations: 2
     title: MAC Aggregation over Lossy Channels in DTLS 1.3
     year: '2025'
+  9lYfEr4AAAAJ:LjlpjdlvIbIC:
+    citations: 0
+    title: 'PowerRange: An immersive cyber range for power grid operators'
+    year: '2026'
   9lYfEr4AAAAJ:M05iB0D1s5AC:
-    citations: 10
+    citations: 12
     title: Facilitating protocol-independent industrial intrusion detection systems
     year: '2020'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
@@ -54,11 +58,11 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 30
+    citations: 31
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
-    citations: 3
+    citations: 4
     title: 'METRICS: A Methodology for Evaluating and Testing the Resilience of Industrial Control Systems to Cyberattacks'
     year: '2023'
   9lYfEr4AAAAJ:XiSMed-E-HIC:
@@ -74,7 +78,7 @@ papers:
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
-    citations: 19
+    citations: 21
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
@@ -90,7 +94,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 47
+    citations: 50
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -118,10 +122,10 @@ papers:
     title: 'Seldom: An anonymity network with selective deanonymization'
     year: '2026'
   9lYfEr4AAAAJ:yD5IFk8b50cC:
-    citations: 55
+    citations: 56
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
-    citations: 20
+    citations: 22
     title: 'Take a bite of the reality sandwich: revisiting the security of progressive message authentication codes'
     year: '2022'
