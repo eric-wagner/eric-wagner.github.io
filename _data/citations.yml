@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-27'
+  last_updated: '2026-04-13'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 31
@@ -26,7 +26,7 @@ papers:
     title: 'Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication'
     year: '2024'
   9lYfEr4AAAAJ:9vf0nzSNQJEC:
-    citations: 2
+    citations: 3
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
@@ -50,7 +50,7 @@ papers:
     title: Facilitating protocol-independent industrial intrusion detection systems
     year: '2020'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 5
+    citations: 6
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:OU6Ihb5iCvQC:
@@ -58,7 +58,7 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 31
+    citations: 32
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
@@ -86,7 +86,7 @@ papers:
     title: Scalable and privacy-focused company-centric supply chain management
     year: '2022'
   9lYfEr4AAAAJ:hMod-77fHWUC:
-    citations: 42
+    citations: 43
     title: Dispute resolution for smart contract-based two-party protocols
     year: '2019'
   9lYfEr4AAAAJ:kRWSkSYxWN8C:
@@ -94,11 +94,11 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 51
+    citations: 53
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
-    citations: 11
+    citations: 12
     title: 'Collaboration is not Evil: A Systematic Look at Security Research for Industrial Use'
     year: '2021'
   9lYfEr4AAAAJ:q3oQSFYPqjQC:
@@ -114,7 +114,7 @@ papers:
     title: CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities
     year: '2025'
   9lYfEr4AAAAJ:u5HHmVD_uO8C:
-    citations: 72
+    citations: 73
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
