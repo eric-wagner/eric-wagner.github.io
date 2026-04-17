@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-13'
+  last_updated: '2026-04-17'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 31
@@ -18,7 +18,7 @@ papers:
     title: Enabling Limited Identity Recovery in Anonymity Networks
     year: '2020'
   9lYfEr4AAAAJ:738O_yMBCRsC:
-    citations: 4
+    citations: 5
     title: One IDS is not Enough! Exploring Ensemble Learning for Industrial Intrusion Detection
     year: '2023'
   9lYfEr4AAAAJ:8AbLer7MMksC:
@@ -30,7 +30,7 @@ papers:
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 9
+    citations: 10
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
@@ -58,7 +58,7 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 32
+    citations: 33
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
@@ -86,7 +86,7 @@ papers:
     title: Scalable and privacy-focused company-centric supply chain management
     year: '2022'
   9lYfEr4AAAAJ:hMod-77fHWUC:
-    citations: 43
+    citations: 44
     title: Dispute resolution for smart contract-based two-party protocols
     year: '2019'
   9lYfEr4AAAAJ:kRWSkSYxWN8C:
@@ -94,7 +94,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 53
+    citations: 54
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -122,7 +122,7 @@ papers:
     title: 'Seldom: An anonymity network with selective deanonymization'
     year: '2026'
   9lYfEr4AAAAJ:yD5IFk8b50cC:
-    citations: 59
+    citations: 60
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
