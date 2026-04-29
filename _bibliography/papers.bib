@@ -1,3 +1,30 @@
+@article{wagner2026seldom,
+author = {Wagner, Eric and Matzutt, Roman and Henze, Martin},
+title = {{Seldom: An Anonymity Network with Selective Deanonymization}},
+year = {2026},
+volume = {29},
+number = {2},
+doi = {10.1145/3794848},
+abstract = {While anonymity networks such as Tor provide invaluable privacy guarantees to society, they also enable all kinds of criminal activities. Consequently, many blameless citizens shy away from protecting their privacy using such technology for fear of being associated with criminals. To grasp the potential for alternative privacy protection for those users, we design Seldom , an anonymity network with integrated selective deanonymization that disincentivizes criminal activity. Seldom enables law enforcement agencies to selectively access otherwise anonymized identities of misbehaving users while providing technical guarantees preventing these access rights from being misused. Seldom further ensures translucency, as each access request is approved by a trustworthy consortium of impartial entities and eventually disclosed to the public (without interfering with ongoing investigations). To demonstrate Seldom ’s feasibility and applicability, we base our implementation on Tor, the most widely used anonymity network. Our evaluation indicates minimal latency, processing, and bandwidth overheads compared to Tor; Seldom ’s main costs stem from storing flow records and encrypted identities. With at most (636 ,{rm TB})  of storage required in total to retain the encrypted identifiers of a Tor-sized network for two years, Seldom provides a practical and deployable technical solution to the inherent problem of criminal activities in anonymity networks. As such, Seldom sheds new light on the potentials and limitations when integrating selective deanonymization into anonymity networks.},
+journal = {ACM Transactions on Privacy and Security (TOPS)},
+  google_scholar_id = {wbdj-CoPYUoC},
+  bibtex_show = {true},
+  selected={true},
+  pdf = {wagner2026seldom.pdf},
+}
+
+@article{bader2026powerrange,
+  title={{PowerRange: An Immersive Cyber Range for Power Grid Operators}},
+  author={Bader, Lennart and Wagner, Eric and Serror, Martin},
+  journal={International Journal of Critical Infrastructure Protection},
+  year={2026},
+  abstract = {Power grids are increasingly targeted by cyberattacks that can disrupt operations and even cause large-scale blackouts. As these critical cyber–physical systems become more digitized and reliant on communication technologies, their attack surface increases, making cybersecurity a growing concern. While technical and organizational measures are essential, their effectiveness is limited without addressing the human factor. Practical, user-centered training is thus crucial to ensure the correct implementation and usability of security measures. However, suitable training environments for power systems remain scarce. This paper introduces PowerRange, an advanced cyber range specifically designed for power grid operators. PowerRange extends a state-of-the-art power grid co-simulator with various user interaction capabilities, including hardware-in-the-loop integration and modern control room software. It supports flexible, automated configuration of realistic scenarios, enabling immersive, hands-on cybersecurity training for key stakeholders, including management, control room staff, and IT/OT personnel. Preliminary pilot training sessions indicate that, beyond improving technical skills, PowerRange promotes cross-functional collaboration and strengthens incident response capabilities.},
+  google_scholar_id = {LjlpjdlvIbIC},
+  bibtex_show = {true},
+  pdf = {bader2026powerrange.pdf},
+  doi = {10.1016/j.ijcip.2026.100845}
+}
+
 @inproceedings{wolsing2025geco,
 	title        = {{GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection}},
 	author       = {Wolsing, Konrad and Wagner, Eric and Lux, Luisa and Wehrle, Klaus and Henze, Martin},
@@ -77,7 +104,6 @@
 	author       = {Wagner, Eric and Heye, David and Serror, Martin and Kunze, Ike and Wehrle, Klaus and Henze, Martin},
 	year         = {2024},
 	booktitle    = {Proceedings of the 19th ACM Asia Conference on Computer and Communications Security~(AsiaCCS'24)},
-  selected={true},
   abstract = {Industrial control systems increasingly rely on middlebox functionality such as intrusion detection or in-network processing. However, traditional end-to-end security protocols interfere with the necessary access to in-flight data. While recent work on middlebox-aware end-to-end security protocols for the traditional Internet promises to address the dilemma between end-to-end security guarantees and middleboxes, the current state-of-the-art lacks critical features for industrial communication. Most importantly, industrial settings require fine-grained access control for middleboxes to truly operate in a least-privilege mode. Likewise, advanced applications even require that middleboxes can inject specific messages (e.g., emergency shutdowns). Meanwhile, industrial scenarios often expose tight latency and bandwidth constraints not found in the traditional Internet. As the current state-of-the-art misses critical features, we propose Middlebox-aware DTLS (Madtls), a middlebox-aware end-to-end security protocol specifically tailored to the needs of industrial networks. Madtls provides bit-level read and write access control of middleboxes to communicated data with minimal bandwidth and processing overhead, even on constrained hardware.},
   google_scholar_id = {8AbLer7MMksC},
   bibtex_show = {true},
