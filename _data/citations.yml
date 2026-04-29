@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-17'
+  last_updated: '2026-04-30'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 31
@@ -10,7 +10,7 @@ papers:
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 13
+    citations: 14
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -18,7 +18,7 @@ papers:
     title: Enabling Limited Identity Recovery in Anonymity Networks
     year: '2020'
   9lYfEr4AAAAJ:738O_yMBCRsC:
-    citations: 5
+    citations: 6
     title: One IDS is not Enough! Exploring Ensemble Learning for Industrial Intrusion Detection
     year: '2023'
   9lYfEr4AAAAJ:8AbLer7MMksC:
@@ -26,19 +26,19 @@ papers:
     title: 'Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication'
     year: '2024'
   9lYfEr4AAAAJ:9vf0nzSNQJEC:
-    citations: 3
+    citations: 4
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 10
+    citations: 11
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 30
+    citations: 32
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
-    citations: 2
+    citations: 3
     title: MAC Aggregation over Lossy Channels in DTLS 1.3
     year: '2025'
   9lYfEr4AAAAJ:LjlpjdlvIbIC:
@@ -50,7 +50,7 @@ papers:
     title: Facilitating protocol-independent industrial intrusion detection systems
     year: '2020'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 6
+    citations: 7
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:OU6Ihb5iCvQC:
@@ -58,7 +58,7 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 33
+    citations: 34
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
@@ -78,7 +78,7 @@ papers:
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
-    citations: 21
+    citations: 22
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
@@ -94,7 +94,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 54
+    citations: 53
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -106,7 +106,7 @@ papers:
     title: Blockchain Technology Accelerating Industry 4.0
     year: '2024'
   9lYfEr4AAAAJ:sSrBHYA8nusC:
-    citations: 9
+    citations: 10
     title: When and How to Aggregate Message Authentication Codes on Lossy Channels
     year: '2024'
   9lYfEr4AAAAJ:tkaPQYYpVKoC:
@@ -114,7 +114,7 @@ papers:
     title: CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities
     year: '2025'
   9lYfEr4AAAAJ:u5HHmVD_uO8C:
-    citations: 73
+    citations: 74
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
@@ -122,10 +122,10 @@ papers:
     title: 'Seldom: An anonymity network with selective deanonymization'
     year: '2026'
   9lYfEr4AAAAJ:yD5IFk8b50cC:
-    citations: 60
+    citations: 61
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
-    citations: 22
+    citations: 23
     title: 'Take a bite of the reality sandwich: revisiting the security of progressive message authentication codes'
     year: '2022'
