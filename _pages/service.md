@@ -7,8 +7,13 @@ nav: true
 nav_order: 3
 ---
 
+### Organizing Committee Member
+
+Replicability Chair - ACM WiSec 2026: [ACM Conference on Security and Privacy in Wireless and Mobile Networks](https://wisec26.events.cispa.de/)
+
 ### Program Committee Member
 
+RAID 2026: [International Symposium on Research in Attacks, Intrusions and Defenses](https://raid2026.org/)
 CIMSS 2026: [International Workshop on Critical Infrastructure and Maritime Systems Security](https://cimss2026.github.io)
 
 ### Reviewer for Journals

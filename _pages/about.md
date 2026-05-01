@@ -14,7 +14,7 @@ profile:
     <p>University of Luxembourg</p>
     <p>Systems and Network Security Group <br></p> 
     
-    <p>eric (dot) wagner (at) uni (dot) lu</p>
+    <p>eric.wagner@uni.lu</p>
     
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -33,3 +33,5 @@ I pursued my Ph.D. (Dr. rer. nat.) at the [Chair of Communication and Distribute
 Before,  I studied computer science at [RWTH Aachen University](https://www.rwth-aachen.de/cms/~a/root/), where I obtained my Bachelor and Master degrees.
 
 My research interests include lightweight cryptography, intrusion detection, automotive cybersecurity, and critical infrastructure protection.
+
+*Working With Me*
