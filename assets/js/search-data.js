@@ -30,13 +30,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/teaching/";
           },
-        },{id: "nav-repositories",
-          title: "Repositories",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
         },{id: "nav-curriculum-vitae",
           title: "Curriculum Vitae",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
@@ -52,6 +45,9 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "news-paper-on-integrating-mac-aggregation-into-dtls-1-3-accepted-at-ieee-icnp-2025",
           title: 'Paper on integrating MAC Aggregation into DTLS 1.3 accepted at IEEE ICNP 2025....',
+          description: "",
+          section: "News",},{id: "news-paper-on-seldom-an-anonymity-network-with-integrated-selective-deanonymization-has-been-published-with-acm-transactions-on-privacy-and-security",
+          title: 'Paper on Seldom, an anonymity network with integrated selective deanonymization has been published...',
           description: "",
           section: "News",},{id: "news-paper-on-seldom-an-anonymity-network-with-integrated-selective-deanonymization-has-been-published-with-acm-transactions-on-privacy-and-security",
           title: 'Paper on Seldom, an anonymity network with integrated selective deanonymization has been published...',
