@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-04-30'
+  last_updated: '2026-05-07'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 31
@@ -50,7 +50,7 @@ papers:
     title: Facilitating protocol-independent industrial intrusion detection systems
     year: '2020'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 7
+    citations: 8
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:OU6Ihb5iCvQC:
@@ -78,7 +78,7 @@ papers:
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
-    citations: 22
+    citations: 23
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
@@ -94,7 +94,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 53
+    citations: 54
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:

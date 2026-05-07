@@ -36,4 +36,4 @@ My research interests include lightweight cryptography, intrusion detection, aut
 
 **Working With Me**
 
-I regularly supervise Master’s theses and internships for students from around the world. If you are interested in working with me, please visit our Project Page (https://sns-unilu.gitlab.io/). You can also reach out directly. In your message, please clearly indicate which of my prior research projects or publications interest you and why, so I can better understand your motivation and fit.
+I regularly supervise Master’s theses and internships for students from around the world. If you are interested in working with me, please visit our [Project Page](https://sns-unilu.gitlab.io/). You can also reach out directly. In your message, please clearly indicate which of my prior research projects or publications interest you and why, so I can better understand your motivation and fit.
