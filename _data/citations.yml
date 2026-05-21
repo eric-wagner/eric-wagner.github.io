@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-07'
+  last_updated: '2026-05-18'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 31
@@ -10,7 +10,7 @@ papers:
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 14
+    citations: 15
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -30,11 +30,11 @@ papers:
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 11
+    citations: 12
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 32
+    citations: 33
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
@@ -53,6 +53,10 @@ papers:
     citations: 8
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
+  9lYfEr4AAAAJ:N5tVd3kTz84C:
+    citations: 0
+    title: 'A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice'
+    year: '2026'
   9lYfEr4AAAAJ:OU6Ihb5iCvQC:
     citations: 2
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
@@ -94,7 +98,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 54
+    citations: 56
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
