@@ -1,16 +1,16 @@
 metadata:
-  last_updated: '2026-06-12'
+  last_updated: '2026-06-19'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 33
     title: 'Network attacks against marine radar systems: A taxonomy, simulation environment, and dataset'
     year: '2022'
   9lYfEr4AAAAJ:35N4QoGY0k4C:
-    citations: 8
+    citations: 9
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 16
+    citations: 17
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -22,7 +22,7 @@ papers:
     title: One IDS is not Enough! Exploring Ensemble Learning for Industrial Intrusion Detection
     year: '2023'
   9lYfEr4AAAAJ:8AbLer7MMksC:
-    citations: 3
+    citations: 4
     title: 'Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication'
     year: '2024'
   9lYfEr4AAAAJ:9vf0nzSNQJEC:
@@ -38,7 +38,7 @@ papers:
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
-    citations: 3
+    citations: 4
     title: MAC Aggregation over Lossy Channels in DTLS 1.3
     year: '2025'
   9lYfEr4AAAAJ:LjlpjdlvIbIC:
@@ -50,7 +50,7 @@ papers:
     title: Facilitating protocol-independent industrial intrusion detection systems
     year: '2020'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 10
+    citations: 11
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:N5tVd3kTz84C:
@@ -62,7 +62,7 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 35
+    citations: 36
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
@@ -70,19 +70,23 @@ papers:
     title: 'METRICS: A Methodology for Evaluating and Testing the Resilience of Industrial Control Systems to Cyberattacks'
     year: '2023'
   9lYfEr4AAAAJ:XiSMed-E-HIC:
-    citations: 7
+    citations: 8
     title: Retrofitting Integrity Protection into Unused Header Fields of Legacy Industrial Protocols
     year: '2023'
   9lYfEr4AAAAJ:Y5dfb0dijaUC:
-    citations: 6
+    citations: 7
     title: 'CAIBA: Multicast Source Authentication for CAN Through Reactive Bit Flipping'
     year: '2025'
+  9lYfEr4AAAAJ:ZuybSZzF8UAC:
+    citations: 0
+    title: Efficient Message Authentication in the Industrial Internet of Things
+    year: '2026'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
     citations: 43
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
-    citations: 24
+    citations: 25
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
@@ -98,7 +102,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 61
+    citations: 66
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -110,7 +114,7 @@ papers:
     title: Blockchain Technology Accelerating Industry 4.0
     year: '2024'
   9lYfEr4AAAAJ:sSrBHYA8nusC:
-    citations: 10
+    citations: 11
     title: When and How to Aggregate Message Authentication Codes on Lossy Channels
     year: '2024'
   9lYfEr4AAAAJ:tkaPQYYpVKoC:
@@ -118,7 +122,7 @@ papers:
     title: CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities
     year: '2025'
   9lYfEr4AAAAJ:u5HHmVD_uO8C:
-    citations: 76
+    citations: 77
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
@@ -126,10 +130,10 @@ papers:
     title: 'Seldom: An anonymity network with selective deanonymization'
     year: '2026'
   9lYfEr4AAAAJ:yD5IFk8b50cC:
-    citations: 62
+    citations: 63
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
-    citations: 25
+    citations: 26
     title: 'Take a bite of the reality sandwich: revisiting the security of progressive message authentication codes'
     year: '2022'
