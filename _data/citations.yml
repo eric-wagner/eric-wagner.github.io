@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-19'
+  last_updated: '2026-07-06'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 33
@@ -10,7 +10,7 @@ papers:
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 17
+    citations: 18
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -86,7 +86,7 @@ papers:
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
-    citations: 25
+    citations: 26
     title: 'BP-MAC: fast authentication for short messages'
     year: '2022'
   9lYfEr4AAAAJ:bFI3QPDXJZMC:
@@ -102,7 +102,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 66
+    citations: 65
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -114,7 +114,7 @@ papers:
     title: Blockchain Technology Accelerating Industry 4.0
     year: '2024'
   9lYfEr4AAAAJ:sSrBHYA8nusC:
-    citations: 11
+    citations: 12
     title: When and How to Aggregate Message Authentication Codes on Lossy Channels
     year: '2024'
   9lYfEr4AAAAJ:tkaPQYYpVKoC:
@@ -122,7 +122,7 @@ papers:
     title: CERERE-An Emulation Environment to Evaluate the Resilience of Complex Systems against Cyber Electro-Magnetic Activities
     year: '2025'
   9lYfEr4AAAAJ:u5HHmVD_uO8C:
-    citations: 77
+    citations: 78
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
