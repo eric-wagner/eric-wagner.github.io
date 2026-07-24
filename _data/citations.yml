@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-07-10'
+  last_updated: '2026-07-24'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 33
@@ -22,19 +22,19 @@ papers:
     title: One IDS is not Enough! Exploring Ensemble Learning for Industrial Intrusion Detection
     year: '2023'
   9lYfEr4AAAAJ:8AbLer7MMksC:
-    citations: 4
+    citations: 5
     title: 'Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication'
     year: '2024'
   9lYfEr4AAAAJ:9vf0nzSNQJEC:
-    citations: 6
+    citations: 7
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 13
+    citations: 14
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 37
+    citations: 38
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
@@ -54,8 +54,8 @@ papers:
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:N5tVd3kTz84C:
-    citations: 0
-    title: 'A Deep Dive into Wormhole Attacks in Underwater Acoustic Communication: From Theory to Practice'
+    citations: 1
+    title: 'A deep dive into wormhole attacks in underwater acoustic communication: From theory to practice'
     year: '2026'
   9lYfEr4AAAAJ:OU6Ihb5iCvQC:
     citations: 3
@@ -65,6 +65,10 @@ papers:
     citations: 36
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
+  9lYfEr4AAAAJ:PR6Y55bgFSsC:
+    citations: 0
+    title: Communication method, transmitter node, authenticator node, and receiver node
+    year: '2026'
   9lYfEr4AAAAJ:WbkHhVStYXYC:
     citations: 4
     title: 'METRICS: A Methodology for Evaluating and Testing the Resilience of Industrial Control Systems to Cyberattacks'
@@ -82,7 +86,7 @@ papers:
     title: Efficient Message Authentication in the Industrial Internet of Things
     year: '2026'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-    citations: 43
+    citations: 44
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
@@ -102,7 +106,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 66
+    citations: 67
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
@@ -114,7 +118,7 @@ papers:
     title: Blockchain Technology Accelerating Industry 4.0
     year: '2024'
   9lYfEr4AAAAJ:sSrBHYA8nusC:
-    citations: 12
+    citations: 13
     title: When and How to Aggregate Message Authentication Codes on Lossy Channels
     year: '2024'
   9lYfEr4AAAAJ:tkaPQYYpVKoC:
@@ -134,6 +138,6 @@ papers:
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
-    citations: 26
+    citations: 27
     title: 'Take a bite of the reality sandwich: revisiting the security of progressive message authentication codes'
     year: '2022'
