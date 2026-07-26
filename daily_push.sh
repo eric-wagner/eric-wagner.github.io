@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /home/leudelange/website/eric-wagner.github.io
+cd /home/leudelange/website/
 source ~/.venv/website/bin/activate
 python ./bin/update_scholar_citations.py
 git add .
