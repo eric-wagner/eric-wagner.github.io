@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2025-02-01
+date: 2026-05-01
 inline: true
 related_posts: false
 ---
 
-Paper on [Seldom, an anonymity network with integrated selective deanonymization](assets/pdf/wagner2026seldom.pdf) has been published with ACM Transactions on Privacy and Security.
+Paper on [wormholing attacks in underwater acoustic communication](assets/pdf/wagner2026seldom.pdf) accepted at ACM WiSec 2026.
