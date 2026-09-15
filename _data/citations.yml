@@ -1,15 +1,8 @@
 metadata:
-<<<<<<< HEAD
-  last_updated: '2026-08-07'
-papers:
-  9lYfEr4AAAAJ:1sJd4Hv_s6UC:
-    citations: 32
-=======
   last_updated: '2026-09-15'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 34
->>>>>>> 200beb4 (Daily cron update)
     title: 'Network attacks against marine radar systems: A taxonomy, simulation environment, and dataset'
     year: '2022'
   9lYfEr4AAAAJ:35N4QoGY0k4C:
