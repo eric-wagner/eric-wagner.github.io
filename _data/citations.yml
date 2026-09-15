@@ -30,11 +30,7 @@ papers:
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-<<<<<<< HEAD
-    citations: 15
-=======
     citations: 16
->>>>>>> 200beb4 (Daily cron update)
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
@@ -46,19 +42,11 @@ papers:
     title: MAC Aggregation over Lossy Channels in DTLS 1.3
     year: '2025'
   9lYfEr4AAAAJ:LjlpjdlvIbIC:
-<<<<<<< HEAD
-    citations: 2
-    title: 'PowerRange: An immersive cyber range for power grid operators'
-    year: '2026'
-  9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 10
-=======
     citations: 3
     title: 'PowerRange: An immersive cyber range for power grid operators'
     year: '2026'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
     citations: 16
->>>>>>> 200beb4 (Daily cron update)
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:N5tVd3kTz84C:
@@ -94,11 +82,7 @@ papers:
     title: Efficient Message Authentication in the Industrial Internet of Things
     year: '2026'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-<<<<<<< HEAD
-    citations: 46
-=======
     citations: 48
->>>>>>> 200beb4 (Daily cron update)
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
@@ -122,11 +106,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-<<<<<<< HEAD
-    citations: 68
-=======
     citations: 76
->>>>>>> 200beb4 (Daily cron update)
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
