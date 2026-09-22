@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-21'
+  last_updated: '2026-09-22'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 34
@@ -30,7 +30,7 @@ papers:
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 16
+    citations: 17
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
