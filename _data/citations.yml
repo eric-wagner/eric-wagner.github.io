@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-22'
+  last_updated: '2026-09-26'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 34
@@ -86,7 +86,7 @@ papers:
     title: Efficient Message Authentication in the Industrial Internet of Things
     year: '2026'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-    citations: 48
+    citations: 49
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
@@ -138,7 +138,7 @@ papers:
     title: Secure low latency communication for constrained industrial IoT scenarios
     year: '2018'
   9lYfEr4AAAAJ:wbdj-CoPYUoC:
-    citations: 3
+    citations: 4
     title: 'Seldom: An anonymity network with selective deanonymization'
     year: '2026'
   9lYfEr4AAAAJ:yD5IFk8b50cC:
