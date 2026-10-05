@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-27'
+  last_updated: '2026-10-05'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 34
@@ -10,7 +10,7 @@ papers:
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 24
+    citations: 25
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -34,7 +34,7 @@ papers:
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 39
+    citations: 40
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
@@ -46,7 +46,7 @@ papers:
     title: 'PowerRange: An immersive cyber range for power grid operators'
     year: '2026'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 18
+    citations: 21
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:N5tVd3kTz84C:
@@ -58,7 +58,7 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 39
+    citations: 40
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:PR6Y55bgFSsC:
