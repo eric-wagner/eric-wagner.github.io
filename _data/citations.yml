@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-16'
+  last_updated: '2026-10-17'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 35
@@ -10,7 +10,7 @@ papers:
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 25
+    citations: 27
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -26,15 +26,15 @@ papers:
     title: 'Madtls: Fine-grained Middlebox-aware End-to-end Security for Industrial Communication'
     year: '2024'
   9lYfEr4AAAAJ:9vf0nzSNQJEC:
-    citations: 13
+    citations: 14
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 18
+    citations: 20
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
-    citations: 41
+    citations: 42
     title: 'PowerDuck: a GOOSE data set of cyberattacks in substations'
     year: '2022'
   9lYfEr4AAAAJ:JoZmwDi-zQgC:
@@ -42,7 +42,7 @@ papers:
     title: MAC Aggregation over Lossy Channels in DTLS 1.3
     year: '2025'
   9lYfEr4AAAAJ:LjlpjdlvIbIC:
-    citations: 5
+    citations: 6
     title: 'PowerRange: An immersive cyber range for power grid operators'
     year: '2026'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
