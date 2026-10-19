@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-18'
+  last_updated: '2026-10-19'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 35
@@ -30,7 +30,7 @@ papers:
     title: 'Sherlock: A Dataset for Process-aware Intrusion Detection Research on Power Grid Networks: Dataset Paper'
     year: '2025'
   9lYfEr4AAAAJ:BrmTIyaxlBUC:
-    citations: 20
+    citations: 21
     title: Deployment Challenges of Industrial Intrusion Detection Systems
     year: '2024'
   9lYfEr4AAAAJ:CHSYGLWDkRkC:
@@ -46,7 +46,7 @@ papers:
     title: 'PowerRange: An immersive cyber range for power grid operators'
     year: '2026'
   9lYfEr4AAAAJ:Mojj43d5GZwC:
-    citations: 22
+    citations: 23
     title: 'GeCos Replacing Experts: Generalizable and Comprehensible Industrial Intrusion Detection'
     year: '2025'
   9lYfEr4AAAAJ:N5tVd3kTz84C:
@@ -58,7 +58,7 @@ papers:
     title: 'Poster: Ensemble Learning for Industrial Intrusion Detection'
     year: '2022'
   9lYfEr4AAAAJ:P5F9QuxV20EC:
-    citations: 40
+    citations: 41
     title: Can industrial intrusion detection be SIMPLE?
     year: '2022'
   9lYfEr4AAAAJ:PR6Y55bgFSsC:
@@ -86,7 +86,7 @@ papers:
     title: Efficient Message Authentication in the Industrial Internet of Things
     year: '2026'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-    citations: 49
+    citations: 50
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
@@ -142,7 +142,7 @@ papers:
     title: 'Seldom: An anonymity network with selective deanonymization'
     year: '2026'
   9lYfEr4AAAAJ:yD5IFk8b50cC:
-    citations: 69
+    citations: 70
     title: 'IPAL: breaking up silos of protocol-dependent and domain-specific industrial intrusion detection systems'
     year: '2022'
   9lYfEr4AAAAJ:zA6iFVUQeVQC:
