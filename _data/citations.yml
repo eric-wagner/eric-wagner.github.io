@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-10-22'
+  last_updated: '2026-10-24'
 papers:
   9lYfEr4AAAAJ:1sJd4Hv_s6UC:
     citations: 35
@@ -10,7 +10,7 @@ papers:
     title: 'QWIN: Facilitating QoS in wireless industrial networks through cooperation'
     year: '2020'
   9lYfEr4AAAAJ:4fKUyHm3Qg0C:
-    citations: 28
+    citations: 29
     title: 'SoK: Evaluations in Industrial Intrusion Detection Research'
     year: '2023'
   9lYfEr4AAAAJ:5Ul4iDaHHb8C:
@@ -90,7 +90,7 @@ papers:
     title: Efficient Message Authentication in the Industrial Internet of Things
     year: '2026'
   9lYfEr4AAAAJ:_xSYboBqXhAC:
-    citations: 50
+    citations: 51
     title: A false sense of security? Revisiting the state of machine learning-based industrial intrusion detection
     year: '2022'
   9lYfEr4AAAAJ:b0M2c_1WBrUC:
@@ -118,7 +118,7 @@ papers:
     title: Towards Improving Accountability in Sensitive-Disclosure Scenarios
     year: '2024'
   9lYfEr4AAAAJ:p2g8aNsByqUC:
-    citations: 79
+    citations: 81
     title: An Interdisciplinary Survey on Information Flows in Supply Chains
     year: '2024'
   9lYfEr4AAAAJ:pyW8ca7W8N0C:
